@@ -36,7 +36,7 @@
       ];
 
       imports = [
-        ./flake/shells.nix
+        ./flake/develop.nix
       ];
 
       _module.args.rootPath = ./.;
