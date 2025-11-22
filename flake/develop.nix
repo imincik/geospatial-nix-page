@@ -21,10 +21,10 @@
         ];
         shellHook = ''
           function dev-help {
-            echo -e "\nWelcome to the development environment !"
+            echo -e "\nWelcome to development environment !"
             echo
             echo "Re-generate packages file:"
-            echo "TODO"
+            echo "  nix eval --json -f team-packages.nix packages > src/packages.json"
             echo
             echo "Launch live server:"
             echo "  live-server --host=127.0.0.1 --open=/index.html src/ & echo \$! > live-server.pid"
