@@ -181,6 +181,12 @@ viewMenuPanel =
             ]
             [ text "Project Board" ]
         , a
+            [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&vulnerable=on"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Vulnerable Packages" ]
+        , a
             [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&outdated=1"
             , target "_blank"
             , class "btn btn-outline-dark me-2"
@@ -193,11 +199,11 @@ viewMenuPanel =
             ]
             [ text "Hydra Status" ]
         , a
-            [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&vulnerable=on"
+            [ href "https://nixpkgs-update-logs.nix-community.org/~supervisor/queue.html"
             , target "_blank"
             , class "btn btn-outline-dark me-2"
             ]
-            [ text "Vulnerable Packages" ]
+            [ text "Update queue" ]
         , a
             [ href "https://search.nixos.org/packages"
             , target "_blank"
