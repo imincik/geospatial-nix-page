@@ -187,6 +187,12 @@ viewMenuPanel =
             ]
             [ text "Outdated Packages" ]
         , a
+            [ href "https://github.com/imincik/nix-utils/actions/workflows/hydra-build-status-linux.yml"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Hydra Status" ]
+        , a
             [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&vulnerable=on"
             , target "_blank"
             , class "btn btn-outline-dark me-2"
