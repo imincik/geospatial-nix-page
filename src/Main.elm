@@ -333,7 +333,7 @@ viewInstructions =
                 , pre [ class "bg-secondary p-3 rounded" ]
                     [ code [] [ text installNixCmd ] ]
                 ]
-            , p [] [ text "and use the search box on the left to find packages by name or description. Click on any package to view its details here." ]
+            , p [] [ text "and use the search box on the left to find packages by name or description. Click on package to see more details and usage instructions." ]
             ]
         ]
 
