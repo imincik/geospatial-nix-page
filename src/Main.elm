@@ -341,36 +341,41 @@ viewInstructions =
 viewPackageDetails : String -> Package -> Html Msg
 viewPackageDetails name pkg =
     div []
-        [ h2 [ class "mb-4" ] [ text (name ++ " v" ++ pkg.version)]
+        [ h2 [ class "mb-4" ] [ text (name ++ " v" ++ pkg.version) ]
         , hr [] []
         , viewDetailSection "Description" pkg.description
         , if String.isEmpty pkg.homepage then
             text ""
 
           else
-            div [ class "mb-4" ]
+            div []
                 [ h4 [] [ text "Homepage" ]
-                , a
-                    [ href pkg.homepage
-                    , target "_blank"
-                    , class "text-warning"
+                , p []
+                    [ a
+                        [ href pkg.homepage
+                        , target "_blank"
+                        , class "text-warning"
+                        ]
+                        [ text pkg.homepage ]
                     ]
-                    [ text pkg.homepage ]
+                , hr [] []
                 ]
         , viewDetailSection "License" pkg.license
-        , div [ class "mb-4" ]
+        , div []
             [ h4 [] [ text "Status" ]
-            , if pkg.broken then
-                span [ class "badge bg-danger" ] [ text "Broken" ]
+            , p []
+                [ if pkg.broken then
+                    span [ class "badge bg-danger" ] [ text "Broken" ]
 
-              else
-                span [ class "badge bg-success" ] [ text "Available" ]
+                  else
+                    span [ class "badge bg-success" ] [ text "Available" ]
+                ]
+            , hr [] []
             ]
-        , hr [] []
-        , div [ class "mt-5" ]
-            [ h4 [] [ text "Install" ]
+        , div []
+            [ h3 [] [ text "USAGE" ]
             , pre [ class "bg-secondary p-3 rounded" ]
-                [ code [] [ text ("nix-env -iA nixpkgs." ++ name) ] ]
+                [ code [] [ text ("TODO: " ++ name) ] ]
             ]
         ]
 
@@ -381,9 +386,10 @@ viewDetailSection label content =
         text ""
 
     else
-        div [ class "mb-4" ]
+        div []
             [ h4 [] [ text label ]
             , p [] [ text content ]
+            , hr [] []
             ]
 
 
