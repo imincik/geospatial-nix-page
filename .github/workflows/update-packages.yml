@@ -24,7 +24,7 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v20
 
       - name: Update packages.json
-        run: nix eval --json -f team-packages.nix packages > src/packages.json
+        run: nix eval --json -f team-packages.nix packages | jq > src/packages.json
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
