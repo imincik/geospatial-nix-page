@@ -14,6 +14,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
 
     import-tree.url = "github:vic/import-tree";
+
     # git-hooks = {
     #   url = "github:cachix/git-hooks.nix";
     #   inputs.nixpkgs.follows = "nixpkgs";
@@ -38,6 +39,19 @@
       imports = [
         ./flake/develop.nix
       ];
+
+      perSystem =
+        {
+          config,
+          lib,
+          pkgs,
+          ...
+        }:
+        {
+          packages = {
+            team-page = pkgs.callPackage ./package.nix { };
+          };
+        };
 
       _module.args.rootPath = ./.;
     };
