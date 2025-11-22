@@ -173,13 +173,37 @@ viewMenuPanel =
             , target "_blank"
             , class "btn btn-outline-dark me-2"
             ]
-            [ text "Team page" ]
+            [ text "Team Page" ]
         , a
             [ href "https://github.com/orgs/NixOS/projects/47"
             , target "_blank"
-            , class "btn btn-outline-dark"
+            , class "btn btn-outline-dark me-2"
             ]
-            [ text "Project board" ]
+            [ text "Project Board" ]
+        , a
+            [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&outdated=1"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Outdated Packages" ]
+        , a
+            [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&vulnerable=on"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Vulnerable Packages" ]
+        , a
+            [ href "https://search.nixos.org/packages"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Nixpkgs Search" ]
+        , a
+            [ href "https://search.nixos.org/options"
+            , target "_blank"
+            , class "btn btn-outline-dark me-2"
+            ]
+            [ text "Options Search" ]
         ]
 
 
@@ -356,6 +380,8 @@ viewInstructions =
                     [ code [] [ text installNixCmd ] ]
                 ]
             , p [] [ text "and use the search box on the left to find packages by name or description. Click on package to see more details and usage instructions." ]
+            , hr [] []
+            , p [] [ text "DISCLAIMER: This website is not an official Geospatial Team project. It was made in an opinionated way by Ivan Mincik, a member of the Geospatial Team." ]
             ]
         ]
 
