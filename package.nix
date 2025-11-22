@@ -30,6 +30,7 @@ stdenv.mkDerivation {
     cp src/index.html $out
     cp build/main.js $out
 
+    cp -a src/packages.json $out
     # cp -a src/resources $out
   '';
 }
