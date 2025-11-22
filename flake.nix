@@ -49,7 +49,7 @@
         }:
         {
           packages = {
-            team-page = pkgs.callPackage ./package.nix { };
+            ui = pkgs.callPackage ./package.nix { };
           };
         };
 

@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   # nix build .#forge-config --option sandbox relaxed --builders ""
   __noChroot = true;
 
-  pname = "team-page";
+  pname = "ui";
   version = "0.1.0";
 
   src = ./.;
