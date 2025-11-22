@@ -382,18 +382,24 @@ installNixCmd =
 viewInstructions : Html Msg
 viewInstructions =
     div []
-        [ h2 [ class "mb-4" ] [ text "QUICK START" ]
-        , div [ class "mb-4" ]
-            [ p []
-                [ text "Install Nix "
-                , a [ href "https://zero-to-nix.com/start/install", target "_blank" ]
-                    [ text "(learn more about this installer)." ]
-                , pre [ class "bg-secondary p-3 rounded" ]
-                    [ code [] [ text installNixCmd ] ]
-                ]
-            , p [] [ text "and use the search box on the left to find packages by name or description. Click on package to see more details and usage instructions." ]
+        [ -- h2 [ class "mb-4" ] [ text "QUICK START" ]
+          -- , div [ class "mb-4" ]
+          --     [ p []
+          --         [ text "Install Nix "
+          --         , a [ href "https://zero-to-nix.com/start/install", target "_blank" ]
+          --             [ text "(learn more about this installer)." ]
+          --         , pre [ class "bg-secondary p-3 rounded" ]
+          --             [ code [] [ text installNixCmd ] ]
+          --         ]
+          --     , p [] [ text "and use the search box on the left to find packages by name or description. Click on package to see more details and usage instructions." ]
+          div [ class "mb-4" ]
+            [ p [] [ text "Search for packages by name or description. Click on package to see more details." ]
             , hr [] []
-            , p [] [ text "DISCLAIMER: This website is not an official Geospatial Team project. It was made in an opinionated way by Ivan Mincik, a member of the Geospatial Team." ]
+            , p []
+                [ text "This website is NOT an official Geospatial Team project. It was made by "
+                , a [ href "https://github.com/imincik", target "_blank" ] [ text "Ivan Mincik (@imincik)" ]
+                , text ", a member of the Geospatial Team."
+                ]
             ]
         ]
 
