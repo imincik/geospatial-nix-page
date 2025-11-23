@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser
 import Dict exposing (Dict)
 import Html exposing (..)
-import Html.Attributes exposing (attribute, class, href, placeholder, src, style, target, value)
+import Html.Attributes exposing (attribute, class, disabled, href, placeholder, src, style, target, value)
 import Html.Events exposing (onClick, onInput)
 import Http
 import Json.Decode as Decode exposing (Decoder)
@@ -33,6 +33,7 @@ type alias Model =
     , selectedPackage : Maybe String
     , selectedFilter : PackageFilter
     , status : Status
+    , currentPage : Int
     }
 
 
@@ -66,6 +67,7 @@ init _ =
       , selectedPackage = Nothing
       , selectedFilter = All
       , status = Loading
+      , currentPage = 1
       }
     , Http.get
         { url = "packages.json"
@@ -83,6 +85,7 @@ type Msg
     | Search String
     | SelectPackage String
     | SelectFilter PackageFilter
+    | ChangePage Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -101,7 +104,7 @@ update msg model =
                     )
 
         Search searchString ->
-            ( { model | searchString = searchString }
+            ( { model | searchString = searchString, currentPage = 1 }
             , Cmd.none
             )
 
@@ -111,7 +114,12 @@ update msg model =
             )
 
         SelectFilter filter ->
-            ( { model | selectedFilter = filter }
+            ( { model | selectedFilter = filter, currentPage = 1 }
+            , Cmd.none
+            )
+
+        ChangePage page ->
+            ( { model | currentPage = page }
             , Cmd.none
             )
 
@@ -284,13 +292,52 @@ viewPackagesList model =
 
         packageCount =
             List.length filteredPackages
+
+        itemsPerPage =
+            10
+
+        totalPages =
+            ceiling (toFloat packageCount / toFloat itemsPerPage)
+
+        startIndex =
+            (model.currentPage - 1) * itemsPerPage
+
+        currentPagePackages =
+            filteredPackages
+                |> List.drop startIndex
+                |> List.take itemsPerPage
     in
     div []
         [ p [ class "text-muted" ]
             [ text (String.fromInt packageCount ++ " package(s) found") ]
         , div [ class "list-group" ]
-            (List.map (viewPackageItem model.selectedPackage) filteredPackages)
+            (List.map (viewPackageItem model.selectedPackage) currentPagePackages)
+        , viewPagination model.currentPage totalPages
         ]
+
+
+viewPagination : Int -> Int -> Html Msg
+viewPagination currentPage totalPages =
+    if totalPages <= 1 then
+        text ""
+
+    else
+        div [ class "d-flex justify-content-center align-items-center gap-2 mt-3" ]
+            [ button
+                [ class "btn btn-outline-dark btn-sm"
+                , onClick (ChangePage (currentPage - 1))
+                , disabled (currentPage <= 1)
+                ]
+                [ text "Previous" ]
+            , span [ class "text-muted" ]
+                [ text ("Page " ++ String.fromInt currentPage ++ " of " ++ String.fromInt totalPages) ]
+            , button
+                [ class "btn btn-outline-dark btn-sm"
+                , onClick (ChangePage (currentPage + 1))
+                , disabled (currentPage >= totalPages)
+                ]
+                [ text "Next" ]
+            ]
 
 
 filterPackages : PackageFilter -> String -> Dict String Package -> List ( String, Package )
