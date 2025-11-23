@@ -152,7 +152,7 @@ view : Model -> Html Msg
 view model =
     div [ class "container-fluid" ]
         [ div [ class "row" ]
-            [ div [ class "col-lg-12 py-3" ]
+            [ div [ class "col-lg-12 py-2" ]
                 [ viewMenuPanel ]
             ]
         , div [ class "row" ]
@@ -166,54 +166,54 @@ view model =
 
 viewMenuPanel : Html Msg
 viewMenuPanel =
-    div [ class "d-flex align-items-center" ]
+    div [ class "d-flex flex-wrap align-items-center gap-2" ]
         [ h1 [ class "me-4 mb-0 fw-bold" ] [ text "GEOSPATIAL NIX" ]
         , a
             [ href "https://nixos.org/community/teams/geospatial/"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Geospatial Team" ]
         , a
             [ href "https://github.com/orgs/NixOS/projects/47"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Project Board" ]
         , a
             [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&vulnerable=on"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Vulnerable Packages" ]
         , a
             [ href "https://repology.org/projects/?maintainer=ivan.mincik%40gmail.com&inrepo=nix_unstable&outdated=1"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Outdated Packages" ]
         , a
             [ href "https://github.com/imincik/nix-utils/actions/workflows/hydra-build-status-linux.yml"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Hydra Status" ]
         , a
             [ href "https://nixpkgs-update-logs.nix-community.org/~supervisor/queue.html"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Update queue" ]
         , a
             [ href "https://search.nixos.org/packages"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Nixpkgs Search" ]
         , a
             [ href "https://search.nixos.org/options"
             , target "_blank"
-            , class "btn btn-outline-dark me-2"
+            , class "btn btn-outline-dark"
             ]
             [ text "Options Search" ]
         ]
