@@ -519,7 +519,7 @@
       "x86_64-windows",
       "i686-windows"
     ],
-    "version": "8.4.1"
+    "version": "8.4.2"
   },
   "gshhg-gmt": {
     "broken": false,
