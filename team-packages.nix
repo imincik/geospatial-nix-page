@@ -79,6 +79,8 @@ let
     pkg:
     let
       meta = pkg.meta or { };
+      position = meta.position or "";
+      recipePath = if position != "" then (builtins.unsafeDiscardStringContext position) else "";
     in
     {
       version = pkg.version or "unknown";
@@ -86,6 +88,7 @@ let
       description = meta.description or "";
       license = extractLicense (meta.license or null);
       homepage = meta.homepage or "";
+      recipe = recipePath;
     };
 
   recursePackageSet =

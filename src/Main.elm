@@ -56,6 +56,7 @@ type alias Package =
     , homepage : String
     , license : String
     , category : String
+    , recipe : String
     }
 
 
@@ -465,6 +466,30 @@ viewInstructions =
         ]
 
 
+cleanRecipePath : String -> String
+cleanRecipePath recipePath =
+    let
+        -- Remove /nix/store/<hash> prefix (first 4 components)
+        -- Example: /nix/store/xxx-source/pkgs/default.nix:123 -> pkgs/default.nix
+        pathWithoutStore =
+            String.split "/" recipePath
+                |> List.drop 4
+                |> String.join "/"
+
+        -- Remove line number if present (format: "pkgs/path/file.nix:123")
+        pathOnly =
+            String.split ":" pathWithoutStore
+                |> List.head
+                |> Maybe.withDefault pathWithoutStore
+    in
+    pathOnly
+
+
+recipeToGithubUrl : String -> String
+recipeToGithubUrl recipePath =
+    "https://github.com/NixOS/nixpkgs/blob/master/" ++ cleanRecipePath recipePath
+
+
 viewPackageDetails : String -> Package -> Html Msg
 viewPackageDetails name pkg =
     div []
@@ -496,6 +521,18 @@ viewPackageDetails name pkg =
 
                   else
                     span [ class "badge bg-success" ] [ text "Available" ]
+                ]
+            , hr [] []
+            ]
+        , div []
+            [ h4 [] [ text "Recipe" ]
+            , p []
+                [ a
+                    [ href (recipeToGithubUrl pkg.recipe)
+                    , target "_blank"
+                    , class "text-warning"
+                    ]
+                    [ text (cleanRecipePath pkg.recipe) ]
                 ]
             , hr [] []
             ]
@@ -605,10 +642,11 @@ packagesDecoder =
 
 packageDataDecoder : Decoder Package
 packageDataDecoder =
-    Decode.map6 Package
+    Decode.map7 Package
         (Decode.field "version" Decode.string)
         (Decode.field "broken" Decode.bool)
         (Decode.field "description" Decode.string)
         (Decode.field "homepage" Decode.string)
         (Decode.field "license" Decode.string)
         (Decode.succeed "")
+        (Decode.field "recipe" Decode.string)
