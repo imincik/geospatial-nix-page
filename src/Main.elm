@@ -487,31 +487,28 @@ viewPackageDetails name pkg =
         , viewDetailSection "Description" pkg.description
         , div []
             [ h4 [] [ text "Versions" ]
-            , ul []
-                [ li []
-                    [ text ("Master: " ++ pkg.versions.master) ]
-                , li []
-                    [ text
-                        ("Unstable: "
-                            ++ (if String.isEmpty pkg.versions.unstable then
-                                    "N/A"
+            , p []
+                [ text ("Master: " ++ pkg.versions.master)
+                , text " | "
+                , text
+                    ("Unstable: "
+                        ++ (if String.isEmpty pkg.versions.unstable then
+                                "N/A"
 
-                                else
-                                    pkg.versions.unstable
-                               )
-                        )
-                    ]
-                , li []
-                    [ text
-                        ("Stable: "
-                            ++ (if String.isEmpty pkg.versions.stable then
-                                    "N/A"
+                            else
+                                pkg.versions.unstable
+                           )
+                    )
+                , text " | "
+                , text
+                    ("Stable: "
+                        ++ (if String.isEmpty pkg.versions.stable then
+                                "N/A"
 
-                                else
-                                    pkg.versions.stable
-                               )
-                        )
-                    ]
+                            else
+                                pkg.versions.stable
+                           )
+                    )
                 ]
             , hr [] []
             ]
@@ -557,39 +554,34 @@ viewPackageDetails name pkg =
             ]
         , div []
             [ h4 [] [ text "Hydra build" ]
-            , ul []
-                [ li []
-                    [ a
-                        [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".x86_64-linux")
-                        , target "_blank"
-                        , class "text-warning"
-                        ]
-                        [ text "x86_64-linux" ]
+            , p []
+                [ a
+                    [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".x86_64-linux")
+                    , target "_blank"
+                    , class "text-warning"
                     ]
-                , li []
-                    [ a
-                        [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".aarch64-linux")
-                        , target "_blank"
-                        , class "text-warning"
-                        ]
-                        [ text "aarch64-linux" ]
+                    [ text "x86_64-linux" ]
+                , text " | "
+                , a
+                    [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".aarch64-linux")
+                    , target "_blank"
+                    , class "text-warning"
                     ]
-                , li []
-                    [ a
-                        [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".x86_64-darwin")
-                        , target "_blank"
-                        , class "text-warning"
-                        ]
-                        [ text "x86_64-darwin" ]
+                    [ text "aarch64-linux" ]
+                , text " | "
+                , a
+                    [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".x86_64-darwin")
+                    , target "_blank"
+                    , class "text-warning"
                     ]
-                , li []
-                    [ a
-                        [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".aarch64-darwin")
-                        , target "_blank"
-                        , class "text-warning"
-                        ]
-                        [ text "aarch64-darwin" ]
+                    [ text "x86_64-darwin" ]
+                , text " | "
+                , a
+                    [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".aarch64-darwin")
+                    , target "_blank"
+                    , class "text-warning"
                     ]
+                    [ text "aarch64-darwin" ]
                 ]
             , hr [] []
             ]
@@ -605,12 +597,15 @@ viewPackageDetails name pkg =
                 ]
             , hr [] []
             ]
-
-        -- , div []
-        --     [ h3 [] [ text "USAGE" ]
-        --     , pre [ class "bg-secondary p-3 rounded" ]
-        --         [ code [] [ text ("TODO: " ++ name) ] ]
-        --     ]
+        , div []
+            [ h4 [] [ text "Shell environment" ]
+            , pre [ class "bg-secondary p-3 rounded" ]
+                [ code []
+                    [ text ("export NIX_PATH=\"nixpkgs=https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz\"\n")
+                    , text ("nix shell --impure --expr 'with (import <nixpkgs> {}); " ++ name ++ "'")
+                    ]
+                ]
+            ]
         ]
 
 
