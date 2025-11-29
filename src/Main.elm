@@ -482,12 +482,12 @@ recipeToGithubUrl recipePath =
 viewPackageDetails : String -> Package -> Html Msg
 viewPackageDetails name pkg =
     div []
-        [ h2 [ class "mb-4" ] [ text name ]
+        [ h3 [ class "mb-4" ] [ text name ]
         , hr [] []
-        , viewDetailSection "Description" pkg.description
-        , div []
-            [ h4 [] [ text "Versions" ]
-            , p []
+        , viewDetailSection "Description" (text pkg.description)
+        , hr [] []
+        , viewDetailSection "Versions"
+            (div []
                 [ text ("Master: " ++ pkg.versions.master)
                 , text " | "
                 , text
@@ -510,51 +510,52 @@ viewPackageDetails name pkg =
                            )
                     )
                 ]
-            , hr [] []
-            ]
-        , if String.isEmpty pkg.homepage then
-            text ""
-
-          else
-            div []
-                [ h4 [] [ text "Homepage" ]
-                , p []
-                    [ a
-                        [ href pkg.homepage
-                        , target "_blank"
-                        , class "text-warning"
-                        ]
-                        [ text pkg.homepage ]
-                    ]
-                , hr [] []
-                ]
-        , viewDetailSection "License" pkg.license
-        , div []
-            [ h4 [] [ text "Status" ]
-            , p []
+            )
+        , hr [] []
+        , viewDetailSection "Status"
+            (div []
                 [ if pkg.broken then
                     span [ class "badge bg-danger" ] [ text "Broken" ]
 
                   else
                     span [ class "badge bg-success" ] [ text "Available" ]
                 ]
-            , hr [] []
-            ]
-        , div []
-            [ h4 [] [ text "Recipe" ]
-            , p []
-                [ a
-                    [ href (recipeToGithubUrl pkg.recipe)
-                    , target "_blank"
-                    , class "text-warning"
-                    ]
-                    [ text pkg.recipe ]
+            )
+        , hr [] []
+        , if String.isEmpty pkg.homepage then
+            text ""
+
+          else
+            div []
+                [ viewDetailSection "Homepage"
+                    (a
+                        [ href pkg.homepage
+                        , target "_blank"
+                        , class "text-warning"
+                        ]
+                        [ text pkg.homepage ]
+                    )
+                , hr [] []
                 ]
-            , hr [] []
-            ]
-        , div []
-            [ h4 [] [ text "Hydra build" ]
-            , p []
+        , if String.isEmpty pkg.license then
+            text ""
+
+          else
+            div []
+                [ viewDetailSection "License" (text pkg.license)
+                , hr [] []
+                ]
+        , viewDetailSection "Recipe"
+            (a
+                [ href (recipeToGithubUrl pkg.recipe)
+                , target "_blank"
+                , class "text-warning"
+                ]
+                [ text pkg.recipe ]
+            )
+        , hr [] []
+        , viewDetailSection "Hydra build"
+            (div []
                 [ a
                     [ href ("https://hydra.nixos.org/job/nixpkgs/trunk/" ++ name ++ ".x86_64-linux")
                     , target "_blank"
@@ -583,20 +584,17 @@ viewPackageDetails name pkg =
                     ]
                     [ text "aarch64-darwin" ]
                 ]
-            , hr [] []
-            ]
-        , div []
-            [ h4 [] [ text "Update log" ]
-            , p []
-                [ a
-                    [ href ("https://nixpkgs-update-logs.nix-community.org/" ++ name ++ "/")
-                    , target "_blank"
-                    , class "text-warning"
-                    ]
-                    [ text ("https://nixpkgs-update-logs.nix-community.org/" ++ name ++ "/") ]
+            )
+        , hr [] []
+        , viewDetailSection "Update log"
+            (a
+                [ href ("https://nixpkgs-update-logs.nix-community.org/" ++ name ++ "/")
+                , target "_blank"
+                , class "text-warning"
                 ]
-            , hr [] []
-            ]
+                [ text ("https://nixpkgs-update-logs.nix-community.org/" ++ name ++ "/") ]
+            )
+        , hr [] []
         , div []
             [ h4 [] [ text "Shell environment" ]
             , pre [ class "bg-secondary p-3 rounded" ]
@@ -609,18 +607,12 @@ viewPackageDetails name pkg =
         ]
 
 
-viewDetailSection : String -> String -> Html Msg
+viewDetailSection : String -> Html Msg -> Html Msg
 viewDetailSection label content =
-    if String.isEmpty content then
-        text ""
-
-    else
-        div []
-            [ h4 [] [ text label ]
-            , p [] [ text content ]
-            , hr [] []
-            ]
-
+    div []
+        [ div [] [ strong [] [ text label ] ]
+        , div [] [ content ]
+        ]
 
 
 -- DECODERS
