@@ -707,9 +707,9 @@
     "homepage": "https://proj.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/pr/proj/package.nix",
-    "version": "9.7.0",
+    "version": "9.7.1",
     "versions": {
-      "master": "9.7.0",
+      "master": "9.7.1",
       "stable": "9.6.1",
       "unstable": "9.7.0"
     }
