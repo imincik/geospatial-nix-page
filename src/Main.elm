@@ -1,4 +1,4 @@
-module Main exposing (main)
+port module Main exposing (main)
 
 import Browser
 import Dict exposing (Dict)
@@ -7,6 +7,12 @@ import Html.Attributes exposing (attribute, class, disabled, href, placeholder, 
 import Html.Events exposing (onClick, onInput)
 import Http
 import Json.Decode as Decode exposing (Decoder)
+
+
+-- PORTS
+
+
+port copyToClipboard : String -> Cmd msg
 
 
 
@@ -94,6 +100,7 @@ type Msg
     | SelectPackage String
     | SelectFilter PackageFilter
     | ChangePage Int
+    | CopyCode String
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -129,6 +136,11 @@ update msg model =
         ChangePage page ->
             ( { model | currentPage = page }
             , Cmd.none
+            )
+
+        CopyCode code ->
+            ( model
+            , copyToClipboard code
             )
 
 
@@ -483,6 +495,10 @@ recipeToGithubUrl recipePath =
 
 viewPackageDetails : String -> Package -> Html Msg
 viewPackageDetails name pkg =
+    let
+        shellCommand =
+            "NIX_PATH=\"nixpkgs=https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz\"\nnix shell --impure --expr 'with (import <nixpkgs> {}); " ++ name ++ "'"
+    in
     div []
         [ h3 [ class "mb-4" ] [ text name ]
         , hr [] []
@@ -598,12 +614,17 @@ viewPackageDetails name pkg =
             )
         , hr [] []
         , div []
-            [ h4 [] [ text "Shell environment" ]
+            [ div [ class "d-flex justify-content-between align-items-center mb-2" ]
+                [ h4 [ class "mb-0" ] [ text "Shell environment" ]
+                , button
+                    [ class "btn btn-sm btn-outline-light"
+                    , onClick (CopyCode shellCommand)
+                    ]
+                    [ text "Copy" ]
+                ]
             , pre [ class "bg-secondary p-3 rounded" ]
                 [ code []
-                    [ text ("export NIX_PATH=\"nixpkgs=https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz\"\n")
-                    , text ("nix shell --impure --expr 'with (import <nixpkgs> {}); " ++ name ++ "'")
-                    ]
+                    [ text shellCommand ]
                 ]
             ]
         ]
