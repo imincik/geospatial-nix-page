@@ -166,15 +166,15 @@ subscriptions _ =
 
 view : Model -> Html Msg
 view model =
-    div [ class "container-fluid" ]
+    div [ class "container" ]
         [ div [ class "row" ]
-            [ div [ class "col-lg-12 py-2" ]
+            [ div [ class "col-lg-12 border py-3 my-2" ]
                 [ viewMenuPanel ]
             ]
         , div [ class "row" ]
-            [ div [ class "col-lg-6 border bg-light py-3 vh-100 overflow-auto" ]
+            [ div [ class "col-lg-6 border bg-light py-3" ]
                 [ viewLeftPanel model ]
-            , div [ class "col-lg-6 bg-dark text-white py-3 vh-100 overflow-auto" ]
+            , div [ class "col-lg-6 bg-dark text-white py-3" ]
                 [ viewRightPanel model ]
             ]
         ]
@@ -182,10 +182,11 @@ view model =
 
 viewMenuPanel : Html Msg
 viewMenuPanel =
-    div [ class "d-flex flex-wrap align-items-center gap-2" ]
-        [ h1 [ class "me-4 mb-0 fw-bold" ] [ text "GEOSPATIAL NIX" ]
-        , a
-            [ href "https://nixos.org/community/teams/geospatial/"
+    div [ class "d-flex flex-column gap-2" ]
+        [ h1 [ class "mb-0 fw-bold" ] [ text "GEOSPATIAL PACKAGES" ]
+        , div [ class "d-flex flex-wrap align-items-center gap-2" ]
+            [ a
+                [ href "https://nixos.org/community/teams/geospatial/"
             , target "_blank"
             , class "btn btn-outline-dark"
             ]
@@ -238,6 +239,7 @@ viewMenuPanel =
             , class "btn btn-outline-dark"
             ]
             [ text "Contributing" ]
+            ]
         ]
 
 
@@ -308,7 +310,7 @@ viewPackagesList model =
             List.length filteredPackages
 
         itemsPerPage =
-            10
+            8
 
         totalPages =
             ceiling (toFloat packageCount / toFloat itemsPerPage)
