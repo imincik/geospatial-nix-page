@@ -184,9 +184,9 @@ view model =
                 [ viewMenuPanel ]
             ]
         , div [ class "row" ]
-            [ div [ class "col-lg-6 border bg-light py-3 overflow-auto", style "max-height" "80vh" ]
+            [ div [ class "col-lg-6 border bg-light py-3 overflow-auto", style "height" "80vh" ]
                 [ viewLeftPanel model ]
-            , div [ class "col-lg-6 bg-dark text-white py-3 overflow-auto", style "max-height" "80vh" ]
+            , div [ class "col-lg-6 bg-dark text-white py-3 overflow-auto", style "height" "80vh" ]
                 [ viewRightPanel model ]
             ]
         ]
@@ -322,7 +322,7 @@ viewPackagesList model =
             List.length filteredPackages
 
         itemsPerPage =
-            8
+            7
 
         totalPages =
             ceiling (toFloat packageCount / toFloat itemsPerPage)
