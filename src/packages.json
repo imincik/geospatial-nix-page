@@ -61,7 +61,7 @@
     "versions": {
       "master": "3.12.0",
       "stable": "3.11.4",
-      "unstable": "3.11.4"
+      "unstable": "3.12.0"
     }
   },
   "gdalMinimal": {
@@ -74,7 +74,7 @@
     "versions": {
       "master": "3.12.0",
       "stable": "3.11.4",
-      "unstable": "3.11.4"
+      "unstable": "3.12.0"
     }
   },
   "geographiclib": {
@@ -425,7 +425,7 @@
     "versions": {
       "master": "10.0-unstable-2025-12-11",
       "stable": "10.0-unstable-2025-04-03",
-      "unstable": "10.0-unstable-2025-04-03"
+      "unstable": "10.0-unstable-2025-12-11"
     }
   },
   "pdal": {
@@ -477,7 +477,7 @@
     "versions": {
       "master": "1.29.1",
       "stable": "1.28.2",
-      "unstable": "1.28.3"
+      "unstable": "1.29.1"
     }
   },
   "postgresql14Packages.pgrouting": {
@@ -828,7 +828,7 @@
     "versions": {
       "master": "3.12.0",
       "stable": "3.11.4",
-      "unstable": "3.11.4"
+      "unstable": "3.12.0"
     }
   },
   "python312Packages.geoarrow-c": {
@@ -1127,7 +1127,7 @@
     "versions": {
       "master": "1.14.2",
       "stable": "1.14.1",
-      "unstable": "1.14.1"
+      "unstable": "1.14.2"
     }
   },
   "python312Packages.pystac-client": {
@@ -1166,7 +1166,7 @@
     "versions": {
       "master": "1.4.4",
       "stable": "1.4.3",
-      "unstable": "1.4.3"
+      "unstable": "1.4.4"
     }
   },
   "python312Packages.rio-tiler": {
@@ -1322,7 +1322,7 @@
     "versions": {
       "master": "3.12.0",
       "stable": "3.11.4",
-      "unstable": "3.11.4"
+      "unstable": "3.12.0"
     }
   },
   "python313Packages.geoarrow-c": {
@@ -1621,7 +1621,7 @@
     "versions": {
       "master": "1.14.2",
       "stable": "1.14.1",
-      "unstable": "1.14.1"
+      "unstable": "1.14.2"
     }
   },
   "python313Packages.pystac-client": {
@@ -1660,7 +1660,7 @@
     "versions": {
       "master": "1.4.4",
       "stable": "1.4.3",
-      "unstable": "1.4.3"
+      "unstable": "1.4.4"
     }
   },
   "python313Packages.rio-tiler": {
@@ -1842,7 +1842,7 @@
     "versions": {
       "master": "1.25.0",
       "stable": "1.24.0",
-      "unstable": "1.24.0"
+      "unstable": "1.25.0"
     }
   },
   "t-rex": {
