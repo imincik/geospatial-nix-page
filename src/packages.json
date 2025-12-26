@@ -928,9 +928,9 @@
     "homepage": "https://github.com/laz-rs/laz-rs-python",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/lazrs/default.nix",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "versions": {
-      "master": "0.8.0",
+      "master": "0.8.1",
       "stable": "0.8.0",
       "unstable": "0.8.0"
     }
@@ -1422,9 +1422,9 @@
     "homepage": "https://github.com/laz-rs/laz-rs-python",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/lazrs/default.nix",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "versions": {
-      "master": "0.8.0",
+      "master": "0.8.1",
       "stable": "0.8.0",
       "unstable": "0.8.0"
     }
@@ -1760,9 +1760,9 @@
     "homepage": "https://saga-gis.sourceforge.io",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/sa/saga/package.nix",
-    "version": "9.10.3",
+    "version": "9.11.0",
     "versions": {
-      "master": "9.10.3",
+      "master": "9.11.0",
       "stable": "9.10.1",
       "unstable": "9.10.3"
     }
@@ -1907,7 +1907,7 @@
     "versions": {
       "master": "3.5.0",
       "stable": "3.4.0",
-      "unstable": "3.4.2"
+      "unstable": "3.5.0"
     }
   },
   "whitebox-tools": {
