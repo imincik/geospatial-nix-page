@@ -434,9 +434,9 @@
     "homepage": "https://osmcode.org/osmium-tool/",
     "license": "GPL-3.0-or-later, MIT, BSD-3-Clause",
     "recipe": "pkgs/by-name/os/osmium-tool/package.nix",
-    "version": "1.18.0",
+    "version": "1.19.0",
     "versions": {
-      "master": "1.18.0",
+      "master": "1.19.0",
       "stable": "1.18.0",
       "unstable": "1.18.0"
     }
