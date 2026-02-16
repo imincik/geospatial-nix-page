@@ -441,6 +441,19 @@
       "unstable": "1.18.0"
     }
   },
+  "ossim": {
+    "broken": false,
+    "description": "Open Source Software Image Map library",
+    "homepage": "https://github.com/ossimlabs/ossim",
+    "license": "MIT",
+    "recipe": "pkgs/by-name/os/ossim/package.nix",
+    "version": "2.12.0",
+    "versions": {
+      "master": "2.12.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
   "otb": {
     "broken": false,
     "description": "Open Source processing of remote sensing images",
@@ -538,9 +551,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
@@ -577,9 +590,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
@@ -616,9 +629,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
@@ -655,9 +668,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
@@ -694,9 +707,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
@@ -733,9 +746,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.1",
+    "version": "3.6.2",
     "versions": {
-      "master": "3.6.1",
+      "master": "3.6.2",
       "stable": "3.6.1",
       "unstable": "3.6.1"
     }
