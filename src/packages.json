@@ -1071,9 +1071,9 @@
     "homepage": "https://github.com/gboeing/osmnx",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/osmnx/default.nix",
-    "version": "2.0.7",
+    "version": "2.1.0",
     "versions": {
-      "master": "2.0.7",
+      "master": "2.1.0",
       "stable": "2.0.6",
       "unstable": "2.0.7"
     }
@@ -1617,9 +1617,9 @@
     "homepage": "https://github.com/gboeing/osmnx",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/osmnx/default.nix",
-    "version": "2.0.7",
+    "version": "2.1.0",
     "versions": {
-      "master": "2.0.7",
+      "master": "2.1.0",
       "stable": "2.0.6",
       "unstable": "2.0.7"
     }
