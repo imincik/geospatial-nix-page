@@ -191,7 +191,7 @@
     "versions": {
       "master": "1.8.1-unstable-2025-11-08",
       "stable": "1.8.1",
-      "unstable": "1.8.1"
+      "unstable": "1.8.1-unstable-2025-11-08"
     }
   },
   "libgeotiff": {
@@ -217,7 +217,7 @@
     "versions": {
       "master": "1.8.1-unstable-2025-11-08",
       "stable": "",
-      "unstable": "1.8.1"
+      "unstable": "1.8.1-unstable-2025-11-08"
     }
   },
   "libosmium": {
@@ -906,7 +906,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.1.2",
-      "unstable": "0.1.2"
+      "unstable": "0.3.0"
     }
   },
   "python313Packages.geoarrow-pyarrow": {
@@ -919,7 +919,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.2.0",
-      "unstable": "0.2.0"
+      "unstable": "0.3.0"
     }
   },
   "python313Packages.geodatasets": {
@@ -958,7 +958,7 @@
     "versions": {
       "master": "1.1.2",
       "stable": "1.1.1",
-      "unstable": "1.1.1"
+      "unstable": "1.1.2"
     }
   },
   "python313Packages.inequality": {
@@ -984,7 +984,7 @@
     "versions": {
       "master": "2.7.0",
       "stable": "2.6.1",
-      "unstable": "2.6.1"
+      "unstable": "2.7.0"
     }
   },
   "python313Packages.lazrs": {
@@ -1036,7 +1036,7 @@
     "versions": {
       "master": "0.11.0",
       "stable": "0.10.0",
-      "unstable": "0.10.0"
+      "unstable": "0.11.0"
     }
   },
   "python313Packages.morecantile": {
@@ -1049,7 +1049,7 @@
     "versions": {
       "master": "7.0.2",
       "stable": "6.2.0",
-      "unstable": "6.2.0"
+      "unstable": "7.0.2"
     }
   },
   "python313Packages.nominatim-api": {
@@ -1075,7 +1075,7 @@
     "versions": {
       "master": "2.1.0",
       "stable": "2.0.6",
-      "unstable": "2.0.7"
+      "unstable": "2.1.0"
     }
   },
   "python313Packages.osmpythontools": {
@@ -1179,7 +1179,7 @@
     "versions": {
       "master": "0.12.1",
       "stable": "0.11.1",
-      "unstable": "0.11.1"
+      "unstable": "0.12.1"
     }
   },
   "python313Packages.pyotb": {
@@ -1270,7 +1270,7 @@
     "versions": {
       "master": "1.5.0",
       "stable": "1.4.3",
-      "unstable": "1.4.4"
+      "unstable": "1.5.0"
     }
   },
   "python313Packages.rio-tiler": {
@@ -1283,7 +1283,7 @@
     "versions": {
       "master": "8.0.5",
       "stable": "7.8.1",
-      "unstable": "7.8.1"
+      "unstable": "8.0.5"
     }
   },
   "python313Packages.rioxarray": {
@@ -1335,7 +1335,7 @@
     "versions": {
       "master": "2025.11.0",
       "stable": "2025.4.0",
-      "unstable": "2025.4.0"
+      "unstable": "2025.11.0"
     }
   },
   "python314Packages.basemap": {
@@ -1452,7 +1452,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.1.2",
-      "unstable": "0.1.2"
+      "unstable": "0.3.0"
     }
   },
   "python314Packages.geoarrow-pyarrow": {
@@ -1465,7 +1465,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.2.0",
-      "unstable": "0.2.0"
+      "unstable": "0.3.0"
     }
   },
   "python314Packages.geodatasets": {
@@ -1504,7 +1504,7 @@
     "versions": {
       "master": "1.1.2",
       "stable": "1.1.1",
-      "unstable": "1.1.1"
+      "unstable": "1.1.2"
     }
   },
   "python314Packages.inequality": {
@@ -1530,7 +1530,7 @@
     "versions": {
       "master": "2.7.0",
       "stable": "2.6.1",
-      "unstable": "2.6.1"
+      "unstable": "2.7.0"
     }
   },
   "python314Packages.lazrs": {
@@ -1582,7 +1582,7 @@
     "versions": {
       "master": "0.11.0",
       "stable": "0.10.0",
-      "unstable": "0.10.0"
+      "unstable": "0.11.0"
     }
   },
   "python314Packages.morecantile": {
@@ -1595,7 +1595,7 @@
     "versions": {
       "master": "7.0.2",
       "stable": "6.2.0",
-      "unstable": "6.2.0"
+      "unstable": "7.0.2"
     }
   },
   "python314Packages.nominatim-api": {
@@ -1621,7 +1621,7 @@
     "versions": {
       "master": "2.1.0",
       "stable": "2.0.6",
-      "unstable": "2.0.7"
+      "unstable": "2.1.0"
     }
   },
   "python314Packages.osmpythontools": {
@@ -1725,7 +1725,7 @@
     "versions": {
       "master": "0.12.1",
       "stable": "0.11.1",
-      "unstable": "0.11.1"
+      "unstable": "0.12.1"
     }
   },
   "python314Packages.pyotb": {
@@ -1816,7 +1816,7 @@
     "versions": {
       "master": "1.5.0",
       "stable": "1.4.3",
-      "unstable": "1.4.4"
+      "unstable": "1.5.0"
     }
   },
   "python314Packages.rio-tiler": {
@@ -1829,7 +1829,7 @@
     "versions": {
       "master": "8.0.5",
       "stable": "7.8.1",
-      "unstable": "7.8.1"
+      "unstable": "8.0.5"
     }
   },
   "python314Packages.rioxarray": {
@@ -1881,7 +1881,7 @@
     "versions": {
       "master": "2025.11.0",
       "stable": "2025.4.0",
-      "unstable": "2025.4.0"
+      "unstable": "2025.11.0"
     }
   },
   "qgis": {
