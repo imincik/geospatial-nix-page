@@ -187,9 +187,9 @@
     "homepage": "https://liblas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/li/liblas/package.nix",
-    "version": "1.8.1",
+    "version": "1.8.1-unstable-2025-11-08",
     "versions": {
-      "master": "1.8.1",
+      "master": "1.8.1-unstable-2025-11-08",
       "stable": "1.8.1",
       "unstable": "1.8.1"
     }
@@ -213,9 +213,9 @@
     "homepage": "https://liblas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/li/liblas/package.nix",
-    "version": "1.8.1",
+    "version": "1.8.1-unstable-2025-11-08",
     "versions": {
-      "master": "1.8.1",
+      "master": "1.8.1-unstable-2025-11-08",
       "stable": "",
       "unstable": "1.8.1"
     }
@@ -902,9 +902,9 @@
     "homepage": "https://github.com/geoarrow/geoarrow-python",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/geoarrow-pandas/default.nix",
-    "version": "0.1.2",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.1.2",
+      "master": "0.3.0",
       "stable": "0.1.2",
       "unstable": "0.1.2"
     }
@@ -915,9 +915,9 @@
     "homepage": "https://github.com/geoarrow/geoarrow-python",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/geoarrow-pyarrow/default.nix",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.2.0",
+      "master": "0.3.0",
       "stable": "0.2.0",
       "unstable": "0.2.0"
     }
@@ -954,9 +954,9 @@
     "homepage": "https://geopandas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geopandas/default.nix",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "versions": {
-      "master": "1.1.1",
+      "master": "1.1.2",
       "stable": "1.1.1",
       "unstable": "1.1.1"
     }
@@ -980,9 +980,9 @@
     "homepage": "https://github.com/laspy/laspy",
     "license": "BSD-2-Clause",
     "recipe": "pkgs/development/python-modules/laspy/default.nix",
-    "version": "2.6.1",
+    "version": "2.7.0",
     "versions": {
-      "master": "2.6.1",
+      "master": "2.7.0",
       "stable": "2.6.1",
       "unstable": "2.6.1"
     }
@@ -1032,9 +1032,9 @@
     "homepage": "https://github.com/pysal/momepy",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/momepy/default.nix",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "versions": {
-      "master": "0.10.0",
+      "master": "0.11.0",
       "stable": "0.10.0",
       "unstable": "0.10.0"
     }
@@ -1045,9 +1045,9 @@
     "homepage": "https://developmentseed.org/morecantile",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/morecantile/default.nix",
-    "version": "6.2.0",
+    "version": "7.0.2",
     "versions": {
-      "master": "6.2.0",
+      "master": "7.0.2",
       "stable": "6.2.0",
       "unstable": "6.2.0"
     }
@@ -1175,9 +1175,9 @@
     "homepage": "https://pyogrio.readthedocs.io/",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/pyogrio/default.nix",
-    "version": "0.11.1",
+    "version": "0.12.1",
     "versions": {
-      "master": "0.11.1",
+      "master": "0.12.1",
       "stable": "0.11.1",
       "unstable": "0.11.1"
     }
@@ -1266,9 +1266,9 @@
     "homepage": "https://rasterio.readthedocs.io/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rasterio/default.nix",
-    "version": "1.4.4",
+    "version": "1.5.0",
     "versions": {
-      "master": "1.4.4",
+      "master": "1.5.0",
       "stable": "1.4.3",
       "unstable": "1.4.4"
     }
@@ -1279,9 +1279,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "7.8.1",
+    "version": "8.0.5",
     "versions": {
-      "master": "7.8.1",
+      "master": "8.0.5",
       "stable": "7.8.1",
       "unstable": "7.8.1"
     }
@@ -1331,9 +1331,9 @@
     "homepage": "https://github.com/geopandas/xyzservices",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/xyzservices/default.nix",
-    "version": "2025.4.0",
+    "version": "2025.11.0",
     "versions": {
-      "master": "2025.4.0",
+      "master": "2025.11.0",
       "stable": "2025.4.0",
       "unstable": "2025.4.0"
     }
@@ -1448,9 +1448,9 @@
     "homepage": "https://github.com/geoarrow/geoarrow-python",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/geoarrow-pandas/default.nix",
-    "version": "0.1.2",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.1.2",
+      "master": "0.3.0",
       "stable": "0.1.2",
       "unstable": "0.1.2"
     }
@@ -1461,9 +1461,9 @@
     "homepage": "https://github.com/geoarrow/geoarrow-python",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/geoarrow-pyarrow/default.nix",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.2.0",
+      "master": "0.3.0",
       "stable": "0.2.0",
       "unstable": "0.2.0"
     }
@@ -1500,9 +1500,9 @@
     "homepage": "https://geopandas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geopandas/default.nix",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "versions": {
-      "master": "1.1.1",
+      "master": "1.1.2",
       "stable": "1.1.1",
       "unstable": "1.1.1"
     }
@@ -1526,9 +1526,9 @@
     "homepage": "https://github.com/laspy/laspy",
     "license": "BSD-2-Clause",
     "recipe": "pkgs/development/python-modules/laspy/default.nix",
-    "version": "2.6.1",
+    "version": "2.7.0",
     "versions": {
-      "master": "2.6.1",
+      "master": "2.7.0",
       "stable": "2.6.1",
       "unstable": "2.6.1"
     }
@@ -1578,9 +1578,9 @@
     "homepage": "https://github.com/pysal/momepy",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/momepy/default.nix",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "versions": {
-      "master": "0.10.0",
+      "master": "0.11.0",
       "stable": "0.10.0",
       "unstable": "0.10.0"
     }
@@ -1591,9 +1591,9 @@
     "homepage": "https://developmentseed.org/morecantile",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/morecantile/default.nix",
-    "version": "6.2.0",
+    "version": "7.0.2",
     "versions": {
-      "master": "6.2.0",
+      "master": "7.0.2",
       "stable": "6.2.0",
       "unstable": "6.2.0"
     }
@@ -1721,9 +1721,9 @@
     "homepage": "https://pyogrio.readthedocs.io/",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/pyogrio/default.nix",
-    "version": "0.11.1",
+    "version": "0.12.1",
     "versions": {
-      "master": "0.11.1",
+      "master": "0.12.1",
       "stable": "0.11.1",
       "unstable": "0.11.1"
     }
@@ -1812,9 +1812,9 @@
     "homepage": "https://rasterio.readthedocs.io/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rasterio/default.nix",
-    "version": "1.4.4",
+    "version": "1.5.0",
     "versions": {
-      "master": "1.4.4",
+      "master": "1.5.0",
       "stable": "1.4.3",
       "unstable": "1.4.4"
     }
@@ -1825,9 +1825,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "7.8.1",
+    "version": "8.0.5",
     "versions": {
-      "master": "7.8.1",
+      "master": "8.0.5",
       "stable": "7.8.1",
       "unstable": "7.8.1"
     }
@@ -1877,9 +1877,9 @@
     "homepage": "https://github.com/geopandas/xyzservices",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/xyzservices/default.nix",
-    "version": "2025.4.0",
+    "version": "2025.11.0",
     "versions": {
-      "master": "2025.4.0",
+      "master": "2025.11.0",
       "stable": "2025.4.0",
       "unstable": "2025.4.0"
     }
