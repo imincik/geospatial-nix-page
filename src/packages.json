@@ -1916,9 +1916,9 @@
     "homepage": "https://saga-gis.sourceforge.io",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/sa/saga/package.nix",
-    "version": "9.11.1",
+    "version": "9.11.3",
     "versions": {
-      "master": "9.11.1",
+      "master": "9.11.3",
       "stable": "9.10.1",
       "unstable": "9.11.1"
     }
