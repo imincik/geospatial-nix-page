@@ -155,6 +155,19 @@
       "unstable": "2.3.7"
     }
   },
+  "hittekaart": {
+    "broken": false,
+    "description": "Renders heatmaps by reading GPX files and generating OSM overlay tiles",
+    "homepage": "https://codeberg.org/dunj3/hittekaart",
+    "license": "GPL-3.0-or-later",
+    "recipe": "pkgs/by-name/hi/hittekaart/package.nix",
+    "version": "0.1.0",
+    "versions": {
+      "master": "0.1.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
   "ili2c": {
     "broken": false,
     "description": "INTERLIS Compiler",
