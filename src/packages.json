@@ -165,7 +165,7 @@
     "versions": {
       "master": "0.1.0",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.1.0"
     }
   },
   "ili2c": {
@@ -1933,7 +1933,7 @@
     "versions": {
       "master": "9.11.3",
       "stable": "9.10.1",
-      "unstable": "9.11.1"
+      "unstable": "9.11.3"
     }
   },
   "sfcgal": {
