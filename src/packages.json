@@ -1058,9 +1058,9 @@
     "homepage": "https://developmentseed.org/morecantile",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/morecantile/default.nix",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "versions": {
-      "master": "7.0.2",
+      "master": "7.0.3",
       "stable": "6.2.0",
       "unstable": "7.0.2"
     }
@@ -1604,9 +1604,9 @@
     "homepage": "https://developmentseed.org/morecantile",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/morecantile/default.nix",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "versions": {
-      "master": "7.0.2",
+      "master": "7.0.3",
       "stable": "6.2.0",
       "unstable": "7.0.2"
     }
