@@ -1062,7 +1062,7 @@
     "versions": {
       "master": "7.0.3",
       "stable": "6.2.0",
-      "unstable": "7.0.2"
+      "unstable": "7.0.3"
     }
   },
   "python313Packages.nominatim-api": {
@@ -1608,7 +1608,7 @@
     "versions": {
       "master": "7.0.3",
       "stable": "6.2.0",
-      "unstable": "7.0.2"
+      "unstable": "7.0.3"
     }
   },
   "python314Packages.nominatim-api": {
