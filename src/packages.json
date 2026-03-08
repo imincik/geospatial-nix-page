@@ -1287,7 +1287,7 @@
     }
   },
   "python313Packages.rio-tiler": {
-    "broken": true,
+    "broken": false,
     "description": "User friendly Rasterio plugin to read raster datasets",
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
@@ -1833,7 +1833,7 @@
     }
   },
   "python314Packages.rio-tiler": {
-    "broken": true,
+    "broken": false,
     "description": "User friendly Rasterio plugin to read raster datasets",
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
