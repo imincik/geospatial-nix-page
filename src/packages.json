@@ -1305,9 +1305,9 @@
     "homepage": "https://corteva.github.io/rioxarray/",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/rioxarray/default.nix",
-    "version": "0.20.0",
+    "version": "0.22.0",
     "versions": {
-      "master": "0.20.0",
+      "master": "0.22.0",
       "stable": "0.20.0",
       "unstable": "0.20.0"
     }
@@ -1851,9 +1851,9 @@
     "homepage": "https://corteva.github.io/rioxarray/",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/rioxarray/default.nix",
-    "version": "0.20.0",
+    "version": "0.22.0",
     "versions": {
-      "master": "0.20.0",
+      "master": "0.22.0",
       "stable": "0.20.0",
       "unstable": "0.20.0"
     }
