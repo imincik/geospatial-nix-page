@@ -1309,7 +1309,7 @@
     "versions": {
       "master": "0.22.0",
       "stable": "0.20.0",
-      "unstable": "0.20.0"
+      "unstable": "0.22.0"
     }
   },
   "python313Packages.rtree": {
@@ -1855,7 +1855,7 @@
     "versions": {
       "master": "0.22.0",
       "stable": "0.20.0",
-      "unstable": "0.20.0"
+      "unstable": "0.22.0"
     }
   },
   "python314Packages.rtree": {
