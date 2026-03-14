@@ -1136,9 +1136,9 @@
     "homepage": "https://github.com/whtsky/pixelmatch-py",
     "license": "ISC",
     "recipe": "pkgs/development/python-modules/pixelmatch/default.nix",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "versions": {
-      "master": "0.3.0",
+      "master": "0.4.0",
       "stable": "0.3.0",
       "unstable": "0.3.0"
     }
@@ -1682,9 +1682,9 @@
     "homepage": "https://github.com/whtsky/pixelmatch-py",
     "license": "ISC",
     "recipe": "pkgs/development/python-modules/pixelmatch/default.nix",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "versions": {
-      "master": "0.3.0",
+      "master": "0.4.0",
       "stable": "0.3.0",
       "unstable": "0.3.0"
     }
