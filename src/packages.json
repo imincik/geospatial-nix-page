@@ -1153,7 +1153,7 @@
     "versions": {
       "master": "0.4.0",
       "stable": "0.3.0",
-      "unstable": "0.3.0"
+      "unstable": "0.4.0"
     }
   },
   "python313Packages.py3dtiles": {
@@ -1699,7 +1699,7 @@
     "versions": {
       "master": "0.4.0",
       "stable": "0.3.0",
-      "unstable": "0.3.0"
+      "unstable": "0.4.0"
     }
   },
   "python314Packages.py3dtiles": {
