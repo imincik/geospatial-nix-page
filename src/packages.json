@@ -363,6 +363,19 @@
       "unstable": "8.6.0"
     }
   },
+  "martin": {
+    "broken": false,
+    "description": "Blazing fast and lightweight PostGIS vector tiles server",
+    "homepage": "https://martin.maplibre.org/",
+    "license": "MIT, Apache-2.0",
+    "recipe": "pkgs/by-name/ma/martin/package.nix",
+    "version": "1.4.0",
+    "versions": {
+      "master": "1.4.0",
+      "stable": "0.9.1",
+      "unstable": "0.9.1"
+    }
+  },
   "mbtileserver": {
     "broken": false,
     "description": "Simple Go-based server for map tiles stored in mbtiles format",
