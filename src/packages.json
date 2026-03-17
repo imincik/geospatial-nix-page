@@ -373,7 +373,7 @@
     "versions": {
       "master": "1.4.0",
       "stable": "0.9.1",
-      "unstable": "0.9.1"
+      "unstable": "1.4.0"
     }
   },
   "mbtileserver": {
