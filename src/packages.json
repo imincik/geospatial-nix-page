@@ -2066,6 +2066,19 @@
       "unstable": "1.37.0"
     }
   },
+  "tilemaker": {
+    "broken": false,
+    "description": "Make OpenStreetMap vector tiles without the stack",
+    "homepage": "https://tilemaker.org/",
+    "license": "free",
+    "recipe": "pkgs/by-name/ti/tilemaker/package.nix",
+    "version": "3.1.0",
+    "versions": {
+      "master": "3.1.0",
+      "stable": "3.0.0",
+      "unstable": "3.0.0"
+    }
+  },
   "tippecanoe": {
     "broken": false,
     "description": "Build vector tilesets from large collections of GeoJSON features",
