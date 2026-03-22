@@ -57,9 +57,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "versions": {
-      "master": "3.12.2",
+      "master": "3.12.3",
       "stable": "3.11.4",
       "unstable": "3.12.2"
     }
@@ -70,9 +70,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "versions": {
-      "master": "3.12.2",
+      "master": "3.12.3",
       "stable": "3.11.4",
       "unstable": "3.12.2"
     }
@@ -811,9 +811,9 @@
     "homepage": "https://py3dtiles.org",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/py3dtiles/default.nix",
-    "version": "12.1.0",
+    "version": "12.1.1",
     "versions": {
-      "master": "12.1.0",
+      "master": "12.1.1",
       "stable": "",
       "unstable": "12.1.0"
     }
@@ -902,9 +902,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "versions": {
-      "master": "3.12.2",
+      "master": "3.12.3",
       "stable": "3.11.4",
       "unstable": "3.12.2"
     }
@@ -1162,9 +1162,9 @@
     "homepage": "https://py3dtiles.org",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/py3dtiles/default.nix",
-    "version": "12.1.0",
+    "version": "12.1.1",
     "versions": {
-      "master": "12.1.0",
+      "master": "12.1.1",
       "stable": "",
       "unstable": "12.1.0"
     }
@@ -1448,9 +1448,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "versions": {
-      "master": "3.12.2",
+      "master": "3.12.3",
       "stable": "3.11.4",
       "unstable": "3.12.2"
     }
@@ -1708,9 +1708,9 @@
     "homepage": "https://py3dtiles.org",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/py3dtiles/default.nix",
-    "version": "12.1.0",
+    "version": "12.1.1",
     "versions": {
-      "master": "12.1.0",
+      "master": "12.1.1",
       "stable": "",
       "unstable": "12.1.0"
     }
