@@ -113,7 +113,7 @@
     "versions": {
       "master": "2.28.2",
       "stable": "2.27.2",
-      "unstable": "2.28.1"
+      "unstable": "2.28.2"
     }
   },
   "graphhopper": {
@@ -2076,7 +2076,7 @@
     "versions": {
       "master": "3.1.0",
       "stable": "3.0.0",
-      "unstable": "3.0.0"
+      "unstable": "3.1.0"
     }
   },
   "tippecanoe": {
@@ -2102,7 +2102,7 @@
     "versions": {
       "master": "3.6.3",
       "stable": "3.4.0",
-      "unstable": "3.6.2"
+      "unstable": "3.6.3"
     }
   },
   "whitebox-tools": {
