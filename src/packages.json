@@ -61,7 +61,7 @@
     "versions": {
       "master": "3.12.3",
       "stable": "3.11.4",
-      "unstable": "3.12.2"
+      "unstable": "3.12.3"
     }
   },
   "gdalMinimal": {
@@ -74,7 +74,7 @@
     "versions": {
       "master": "3.12.3",
       "stable": "3.11.4",
-      "unstable": "3.12.2"
+      "unstable": "3.12.3"
     }
   },
   "geographiclib": {
@@ -356,9 +356,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.0",
+    "version": "8.6.1",
     "versions": {
-      "master": "8.6.0",
+      "master": "8.6.1",
       "stable": "8.4.1",
       "unstable": "8.6.0"
     }
@@ -815,7 +815,7 @@
     "versions": {
       "master": "12.1.1",
       "stable": "",
-      "unstable": "12.1.0"
+      "unstable": "12.1.1"
     }
   },
   "python313Packages.basemap": {
@@ -906,7 +906,7 @@
     "versions": {
       "master": "3.12.3",
       "stable": "3.11.4",
-      "unstable": "3.12.2"
+      "unstable": "3.12.3"
     }
   },
   "python313Packages.geoarrow-c": {
@@ -1166,7 +1166,7 @@
     "versions": {
       "master": "12.1.1",
       "stable": "",
-      "unstable": "12.1.0"
+      "unstable": "12.1.1"
     }
   },
   "python313Packages.pygmt": {
@@ -1452,7 +1452,7 @@
     "versions": {
       "master": "3.12.3",
       "stable": "3.11.4",
-      "unstable": "3.12.2"
+      "unstable": "3.12.3"
     }
   },
   "python314Packages.geoarrow-c": {
@@ -1712,7 +1712,7 @@
     "versions": {
       "master": "12.1.1",
       "stable": "",
-      "unstable": "12.1.0"
+      "unstable": "12.1.1"
     }
   },
   "python314Packages.pygmt": {
