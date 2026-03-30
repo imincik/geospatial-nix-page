@@ -2007,9 +2007,9 @@
     "homepage": "https://github.com/stac-utils/stac-validator",
     "license": "Apache-2.0",
     "recipe": "pkgs/by-name/st/stac-validator/package.nix",
-    "version": "3.10.2",
+    "version": "3.11.0",
     "versions": {
-      "master": "3.10.2",
+      "master": "3.11.0",
       "stable": "3.10.2",
       "unstable": "3.10.2"
     }
