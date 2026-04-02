@@ -2011,7 +2011,7 @@
     "versions": {
       "master": "3.11.0",
       "stable": "3.10.2",
-      "unstable": "3.10.2"
+      "unstable": "3.11.0"
     }
   },
   "sumo": {
