@@ -190,7 +190,7 @@
     "version": "2.0.4",
     "versions": {
       "master": "2.0.4",
-      "stable": "",
+      "stable": "2.0.4",
       "unstable": "2.0.4"
     }
   },
@@ -229,7 +229,7 @@
     "version": "1.8.1-unstable-2025-11-08",
     "versions": {
       "master": "1.8.1-unstable-2025-11-08",
-      "stable": "",
+      "stable": "1.8.1",
       "unstable": "1.8.1-unstable-2025-11-08"
     }
   },
