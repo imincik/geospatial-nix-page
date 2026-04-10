@@ -789,7 +789,7 @@
     "versions": {
       "master": "9.8.0",
       "stable": "9.7.0",
-      "unstable": "9.7.1"
+      "unstable": "9.8.0"
     }
   },
   "protozero": {
@@ -816,6 +816,32 @@
       "master": "12.1.1",
       "stable": "",
       "unstable": "12.1.1"
+    }
+  },
+  "python313Packages.async-geotiff": {
+    "broken": false,
+    "description": "Fast, async GeoTIFF and COG reader for Python",
+    "homepage": "https://developmentseed.org/async-geotiff/latest/",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/async-geotiff/default.nix",
+    "version": "0.4.0",
+    "versions": {
+      "master": "0.4.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
+  "python313Packages.async-tiff": {
+    "broken": false,
+    "description": "Async TIFF reader for Python",
+    "homepage": "http://developmentseed.org/async-tiff/",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/async-tiff/default.nix",
+    "version": "0.7.1",
+    "versions": {
+      "master": "0.7.1",
+      "stable": "",
+      "unstable": ""
     }
   },
   "python313Packages.basemap": {
@@ -1305,9 +1331,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "8.0.5",
+    "version": "9.0.4",
     "versions": {
-      "master": "8.0.5",
+      "master": "9.0.4",
       "stable": "7.8.1",
       "unstable": "8.0.5"
     }
@@ -1351,17 +1377,56 @@
       "unstable": "2.1.2"
     }
   },
+  "python313Packages.stac-validator": {
+    "broken": false,
+    "description": "Validator for the SpatioTemporal Asset Catalog (STAC) specification",
+    "homepage": "https://github.com/stac-utils/stac-validator",
+    "license": "Apache-2.0",
+    "recipe": "pkgs/development/python-modules/stac-validator/default.nix",
+    "version": "4.1.0",
+    "versions": {
+      "master": "4.1.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
   "python313Packages.xyzservices": {
     "broken": false,
     "description": "Source of XYZ tiles providers",
     "homepage": "https://github.com/geopandas/xyzservices",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/xyzservices/default.nix",
-    "version": "2025.11.0",
+    "version": "2026.3.0",
     "versions": {
-      "master": "2025.11.0",
+      "master": "2026.3.0",
       "stable": "2025.4.0",
       "unstable": "2025.11.0"
+    }
+  },
+  "python314Packages.async-geotiff": {
+    "broken": false,
+    "description": "Fast, async GeoTIFF and COG reader for Python",
+    "homepage": "https://developmentseed.org/async-geotiff/latest/",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/async-geotiff/default.nix",
+    "version": "0.4.0",
+    "versions": {
+      "master": "0.4.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
+  "python314Packages.async-tiff": {
+    "broken": false,
+    "description": "Async TIFF reader for Python",
+    "homepage": "http://developmentseed.org/async-tiff/",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/async-tiff/default.nix",
+    "version": "0.7.1",
+    "versions": {
+      "master": "0.7.1",
+      "stable": "",
+      "unstable": ""
     }
   },
   "python314Packages.basemap": {
@@ -1851,9 +1916,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "8.0.5",
+    "version": "9.0.4",
     "versions": {
-      "master": "8.0.5",
+      "master": "9.0.4",
       "stable": "7.8.1",
       "unstable": "8.0.5"
     }
@@ -1897,15 +1962,28 @@
       "unstable": "2.1.2"
     }
   },
+  "python314Packages.stac-validator": {
+    "broken": false,
+    "description": "Validator for the SpatioTemporal Asset Catalog (STAC) specification",
+    "homepage": "https://github.com/stac-utils/stac-validator",
+    "license": "Apache-2.0",
+    "recipe": "pkgs/development/python-modules/stac-validator/default.nix",
+    "version": "4.1.0",
+    "versions": {
+      "master": "4.1.0",
+      "stable": "",
+      "unstable": ""
+    }
+  },
   "python314Packages.xyzservices": {
     "broken": false,
     "description": "Source of XYZ tiles providers",
     "homepage": "https://github.com/geopandas/xyzservices",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/xyzservices/default.nix",
-    "version": "2025.11.0",
+    "version": "2026.3.0",
     "versions": {
-      "master": "2025.11.0",
+      "master": "2026.3.0",
       "stable": "2025.4.0",
       "unstable": "2025.11.0"
     }
@@ -1929,9 +2007,9 @@
     "homepage": "https://www.qgis.org",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/applications/gis/qgis/unwrapped-ltr.nix",
-    "version": "3.40.15",
+    "version": "3.44.8",
     "versions": {
-      "master": "3.40.15",
+      "master": "3.44.8",
       "stable": "3.40.12",
       "unstable": "3.40.15"
     }
@@ -2006,10 +2084,10 @@
     "description": "Validator for the SpatioTemporal Asset Catalog (STAC) specification",
     "homepage": "https://github.com/stac-utils/stac-validator",
     "license": "Apache-2.0",
-    "recipe": "pkgs/by-name/st/stac-validator/package.nix",
-    "version": "3.11.0",
+    "recipe": "pkgs/development/python-modules/stac-validator/default.nix",
+    "version": "4.1.0",
     "versions": {
-      "master": "3.11.0",
+      "master": "4.1.0",
       "stable": "3.10.2",
       "unstable": "3.11.0"
     }
@@ -2102,7 +2180,7 @@
     "versions": {
       "master": "3.7.1",
       "stable": "3.4.0",
-      "unstable": "3.6.3"
+      "unstable": "3.7.1"
     }
   },
   "whitebox-tools": {
