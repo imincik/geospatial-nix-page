@@ -1110,9 +1110,9 @@
     "homepage": "https://nominatim.org/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/no/nominatim/nominatim-api.nix",
-    "version": "5.3.0",
+    "version": "5.3.1",
     "versions": {
-      "master": "5.3.0",
+      "master": "5.3.1",
       "stable": "5.2.0",
       "unstable": "5.3.0"
     }
@@ -1695,9 +1695,9 @@
     "homepage": "https://nominatim.org/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/no/nominatim/nominatim-api.nix",
-    "version": "5.3.0",
+    "version": "5.3.1",
     "versions": {
-      "master": "5.3.0",
+      "master": "5.3.1",
       "stable": "5.2.0",
       "unstable": "5.3.0"
     }
