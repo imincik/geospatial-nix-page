@@ -2176,9 +2176,9 @@
     "homepage": "https://github.com/umap-project/umap/",
     "license": "AGPL-3.0-only",
     "recipe": "pkgs/by-name/um/umap/package.nix",
-    "version": "3.7.1",
+    "version": "3.7.3",
     "versions": {
-      "master": "3.7.1",
+      "master": "3.7.3",
       "stable": "3.4.0",
       "unstable": "3.7.1"
     }
