@@ -438,7 +438,7 @@
     "versions": {
       "master": "2.4.0",
       "stable": "2.3.0",
-      "unstable": "2.3.0"
+      "unstable": "2.4.0"
     }
   },
   "osm2pgsql": {
@@ -464,7 +464,7 @@
     "versions": {
       "master": "1.19.1",
       "stable": "1.18.0",
-      "unstable": "1.19.0"
+      "unstable": "1.19.1"
     }
   },
   "ossim": {
@@ -828,7 +828,7 @@
     "versions": {
       "master": "0.4.0",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.4.0"
     }
   },
   "python313Packages.async-tiff": {
@@ -841,7 +841,7 @@
     "versions": {
       "master": "0.7.1",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.7.1"
     }
   },
   "python313Packages.basemap": {
@@ -1114,7 +1114,7 @@
     "versions": {
       "master": "5.3.1",
       "stable": "5.2.0",
-      "unstable": "5.3.0"
+      "unstable": "5.3.1"
     }
   },
   "python313Packages.osmnx": {
@@ -1335,7 +1335,7 @@
     "versions": {
       "master": "9.0.4",
       "stable": "7.8.1",
-      "unstable": "8.0.5"
+      "unstable": "9.0.4"
     }
   },
   "python313Packages.rioxarray": {
@@ -1387,7 +1387,7 @@
     "versions": {
       "master": "4.1.0",
       "stable": "",
-      "unstable": ""
+      "unstable": "4.1.0"
     }
   },
   "python313Packages.xyzservices": {
@@ -1400,7 +1400,7 @@
     "versions": {
       "master": "2026.3.0",
       "stable": "2025.4.0",
-      "unstable": "2025.11.0"
+      "unstable": "2026.3.0"
     }
   },
   "python314Packages.async-geotiff": {
@@ -1413,7 +1413,7 @@
     "versions": {
       "master": "0.4.0",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.4.0"
     }
   },
   "python314Packages.async-tiff": {
@@ -1426,7 +1426,7 @@
     "versions": {
       "master": "0.7.1",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.7.1"
     }
   },
   "python314Packages.basemap": {
@@ -1699,7 +1699,7 @@
     "versions": {
       "master": "5.3.1",
       "stable": "5.2.0",
-      "unstable": "5.3.0"
+      "unstable": "5.3.1"
     }
   },
   "python314Packages.osmnx": {
@@ -1920,7 +1920,7 @@
     "versions": {
       "master": "9.0.4",
       "stable": "7.8.1",
-      "unstable": "8.0.5"
+      "unstable": "9.0.4"
     }
   },
   "python314Packages.rioxarray": {
@@ -1972,7 +1972,7 @@
     "versions": {
       "master": "4.1.0",
       "stable": "",
-      "unstable": ""
+      "unstable": "4.1.0"
     }
   },
   "python314Packages.xyzservices": {
@@ -1985,7 +1985,7 @@
     "versions": {
       "master": "2026.3.0",
       "stable": "2025.4.0",
-      "unstable": "2025.11.0"
+      "unstable": "2026.3.0"
     }
   },
   "qgis": {
@@ -2011,7 +2011,7 @@
     "versions": {
       "master": "3.44.8",
       "stable": "3.40.12",
-      "unstable": "3.40.15"
+      "unstable": "3.44.8"
     }
   },
   "saga": {
@@ -2024,7 +2024,7 @@
     "versions": {
       "master": "9.11.4",
       "stable": "9.10.1",
-      "unstable": "9.11.3"
+      "unstable": "9.11.4"
     }
   },
   "sfcgal": {
@@ -2050,7 +2050,7 @@
     "versions": {
       "master": "1.6.3",
       "stable": "1.6.2",
-      "unstable": "1.6.2"
+      "unstable": "1.6.3"
     }
   },
   "spatialite-gui": {
@@ -2089,7 +2089,7 @@
     "versions": {
       "master": "4.1.0",
       "stable": "3.10.2",
-      "unstable": "3.11.0"
+      "unstable": "4.1.0"
     }
   },
   "sumo": {
@@ -2180,7 +2180,7 @@
     "versions": {
       "master": "3.7.3",
       "stable": "3.4.0",
-      "unstable": "3.7.1"
+      "unstable": "3.7.3"
     }
   },
   "whitebox-tools": {
