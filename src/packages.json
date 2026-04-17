@@ -1994,9 +1994,9 @@
     "homepage": "https://www.qgis.org",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/applications/gis/qgis/unwrapped.nix",
-    "version": "3.44.7",
+    "version": "4.0.1",
     "versions": {
-      "master": "3.44.7",
+      "master": "4.0.1",
       "stable": "3.44.4",
       "unstable": "3.44.7"
     }
