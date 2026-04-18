@@ -577,9 +577,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -616,9 +616,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -655,9 +655,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -694,9 +694,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -733,9 +733,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -772,9 +772,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "versions": {
-      "master": "3.6.2",
+      "master": "3.6.3",
       "stable": "3.6.1",
       "unstable": "3.6.2"
     }
@@ -1331,9 +1331,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "9.0.4",
+    "version": "9.0.6",
     "versions": {
-      "master": "9.0.4",
+      "master": "9.0.6",
       "stable": "7.8.1",
       "unstable": "9.0.4"
     }
@@ -1916,9 +1916,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "9.0.4",
+    "version": "9.0.6",
     "versions": {
-      "master": "9.0.4",
+      "master": "9.0.6",
       "stable": "7.8.1",
       "unstable": "9.0.4"
     }
