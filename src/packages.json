@@ -317,9 +317,9 @@
     "homepage": "https://mapserver.org/mapcache/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapcache/package.nix",
-    "version": "1.14.1",
+    "version": "1.16.0",
     "versions": {
-      "master": "1.14.1",
+      "master": "1.16.0",
       "stable": "1.14.1",
       "unstable": "1.14.1"
     }
@@ -356,9 +356,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.1",
+    "version": "8.6.2",
     "versions": {
-      "master": "8.6.1",
+      "master": "8.6.2",
       "stable": "8.4.1",
       "unstable": "8.6.1"
     }
