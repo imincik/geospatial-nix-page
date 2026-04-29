@@ -57,9 +57,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.3",
+    "version": "3.12.4",
     "versions": {
-      "master": "3.12.3",
+      "master": "3.12.4",
       "stable": "3.11.4",
       "unstable": "3.12.3"
     }
@@ -70,9 +70,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.3",
+    "version": "3.12.4",
     "versions": {
-      "master": "3.12.3",
+      "master": "3.12.4",
       "stable": "3.11.4",
       "unstable": "3.12.3"
     }
@@ -928,9 +928,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.3",
+    "version": "3.12.4",
     "versions": {
-      "master": "3.12.3",
+      "master": "3.12.4",
       "stable": "3.11.4",
       "unstable": "3.12.3"
     }
@@ -1513,9 +1513,9 @@
     "homepage": "https://www.gdal.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/gd/gdal/package.nix",
-    "version": "3.12.3",
+    "version": "3.12.4",
     "versions": {
-      "master": "3.12.3",
+      "master": "3.12.4",
       "stable": "3.11.4",
       "unstable": "3.12.3"
     }
@@ -2011,7 +2011,7 @@
     "versions": {
       "master": "3.44.9",
       "stable": "3.40.12",
-      "unstable": "3.44.8"
+      "unstable": "3.44.9"
     }
   },
   "saga": {
