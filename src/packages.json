@@ -5,9 +5,9 @@
     "homepage": "http://lastools.org/",
     "license": "unfree",
     "recipe": "pkgs/by-name/la/lastools/package.nix",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "versions": {
-      "master": "2.0.4",
+      "master": "2.0.5",
       "stable": "2.0.4",
       "unstable": "2.0.4"
     }
@@ -187,9 +187,9 @@
     "homepage": "http://lastools.org/",
     "license": "unfree",
     "recipe": "pkgs/by-name/la/lastools/package.nix",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "versions": {
-      "master": "2.0.4",
+      "master": "2.0.5",
       "stable": "2.0.4",
       "unstable": "2.0.4"
     }
