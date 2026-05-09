@@ -135,9 +135,9 @@
     "homepage": "https://grass.osgeo.org/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/gr/grass/package.nix",
-    "version": "8.4.2",
+    "version": "8.5.0",
     "versions": {
-      "master": "8.4.2",
+      "master": "8.5.0",
       "stable": "8.4.2",
       "unstable": "8.4.2"
     }
@@ -356,9 +356,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.2",
+    "version": "8.6.3",
     "versions": {
-      "master": "8.6.2",
+      "master": "8.6.3",
       "stable": "8.4.1",
       "unstable": "8.6.2"
     }
