@@ -12,6 +12,19 @@
       "unstable": "2.0.4"
     }
   },
+  "cloudcompare": {
+    "broken": false,
+    "description": "3D point cloud and mesh processing software",
+    "homepage": "https://cloudcompare.org",
+    "license": "GPL-2.0-or-later",
+    "recipe": "pkgs/by-name/cl/cloudcompare/package.nix",
+    "version": "2.13.2",
+    "versions": {
+      "master": "2.13.2",
+      "stable": "2.13.2",
+      "unstable": "2.13.2"
+    }
+  },
   "dcw-gmt": {
     "broken": false,
     "description": "Vector basemap of the world, for use with GMT",
@@ -400,6 +413,19 @@
       "master": "0.20.0",
       "stable": "0.20.0",
       "unstable": "0.20.0"
+    }
+  },
+  "meshlab": {
+    "broken": false,
+    "description": "System for processing and editing 3D triangular meshes",
+    "homepage": "https://www.meshlab.net/",
+    "license": "GPL-3.0-only",
+    "recipe": "pkgs/by-name/me/meshlab/package.nix",
+    "version": "2025.07",
+    "versions": {
+      "master": "2025.07",
+      "stable": "2025.07",
+      "unstable": "2025.07"
     }
   },
   "nominatim": {
