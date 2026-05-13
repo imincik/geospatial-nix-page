@@ -9,7 +9,7 @@
     "versions": {
       "master": "2.0.5",
       "stable": "2.0.4",
-      "unstable": "2.0.4"
+      "unstable": "2.0.5"
     }
   },
   "cloudcompare": {
@@ -152,7 +152,7 @@
     "versions": {
       "master": "8.5.0",
       "stable": "8.4.2",
-      "unstable": "8.4.2"
+      "unstable": "8.5.0"
     }
   },
   "gshhg-gmt": {
@@ -204,7 +204,7 @@
     "versions": {
       "master": "2.0.5",
       "stable": "2.0.4",
-      "unstable": "2.0.4"
+      "unstable": "2.0.5"
     }
   },
   "libLAS": {
@@ -373,7 +373,7 @@
     "versions": {
       "master": "8.6.3",
       "stable": "8.4.1",
-      "unstable": "8.6.2"
+      "unstable": "8.6.3"
     }
   },
   "martin": {
@@ -434,9 +434,9 @@
     "homepage": "https://nominatim.org/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/no/nominatim/package.nix",
-    "version": "5.2.0",
+    "version": "5.3.2",
     "versions": {
-      "master": "5.2.0",
+      "master": "5.3.2",
       "stable": "5.2.0",
       "unstable": "5.2.0"
     }
@@ -2046,9 +2046,9 @@
     "homepage": "https://saga-gis.sourceforge.io",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/sa/saga/package.nix",
-    "version": "9.12.2",
+    "version": "9.12.3",
     "versions": {
-      "master": "9.12.2",
+      "master": "9.12.3",
       "stable": "9.10.1",
       "unstable": "9.12.2"
     }
