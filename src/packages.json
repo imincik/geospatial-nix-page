@@ -1006,9 +1006,9 @@
     "homepage": "https://geodatasets.readthedocs.io/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geodatasets/default.nix",
-    "version": "2026.1.0",
+    "version": "2026.5.0",
     "versions": {
-      "master": "2026.1.0",
+      "master": "2026.5.0",
       "stable": "2024.8.0",
       "unstable": "2026.1.0"
     }
@@ -1591,9 +1591,9 @@
     "homepage": "https://geodatasets.readthedocs.io/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geodatasets/default.nix",
-    "version": "2026.1.0",
+    "version": "2026.5.0",
     "versions": {
-      "master": "2026.1.0",
+      "master": "2026.5.0",
       "stable": "2024.8.0",
       "unstable": "2026.1.0"
     }
