@@ -178,7 +178,7 @@
     "versions": {
       "master": "0.2.0",
       "stable": "",
-      "unstable": "0.1.0"
+      "unstable": "0.2.0"
     }
   },
   "ili2c": {
@@ -386,7 +386,7 @@
     "versions": {
       "master": "1.9.1",
       "stable": "0.9.1",
-      "unstable": "1.4.0"
+      "unstable": "1.9.1"
     }
   },
   "mbtileserver": {
@@ -1010,7 +1010,7 @@
     "versions": {
       "master": "2026.5.1",
       "stable": "2024.8.0",
-      "unstable": "2026.1.0"
+      "unstable": "2026.5.1"
     }
   },
   "python313Packages.geojson": {
@@ -1595,7 +1595,7 @@
     "versions": {
       "master": "2026.5.1",
       "stable": "2024.8.0",
-      "unstable": "2026.1.0"
+      "unstable": "2026.5.1"
     }
   },
   "python314Packages.geojson": {
