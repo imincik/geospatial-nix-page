@@ -382,9 +382,9 @@
     "homepage": "https://martin.maplibre.org/",
     "license": "MIT, Apache-2.0",
     "recipe": "pkgs/by-name/ma/martin/package.nix",
-    "version": "1.9.1",
+    "version": "1.10.1",
     "versions": {
-      "master": "1.9.1",
+      "master": "1.10.1",
       "stable": "0.9.1",
       "unstable": "1.9.1"
     }
