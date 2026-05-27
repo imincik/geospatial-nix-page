@@ -915,9 +915,9 @@
     "homepage": "https://github.com/vincentsarago/color-operations",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/color-operations/default.nix",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.2.0",
+      "master": "0.3.0",
       "stable": "0.2.0",
       "unstable": "0.2.0"
     }
@@ -1500,9 +1500,9 @@
     "homepage": "https://github.com/vincentsarago/color-operations",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/color-operations/default.nix",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "versions": {
-      "master": "0.2.0",
+      "master": "0.3.0",
       "stable": "0.2.0",
       "unstable": "0.2.0"
     }
