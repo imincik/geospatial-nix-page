@@ -51,6 +51,19 @@
       "unstable": "3.14.1"
     }
   },
+  "e57inspector": {
+    "broken": false,
+    "description": "Cross-platform E57 file viewer to list and view stored point clouds, images and metadata",
+    "homepage": "https://github.com/sisakat/e57inspector",
+    "license": "GPL-3.0-only",
+    "recipe": "pkgs/by-name/e5/e57inspector/package.nix",
+    "version": "0.3.1",
+    "versions": {
+      "master": "0.3.1",
+      "stable": "",
+      "unstable": ""
+    }
+  },
   "entwine": {
     "broken": false,
     "description": "Point cloud organization for massive datasets",
