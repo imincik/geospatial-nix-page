@@ -577,9 +577,9 @@
     "homepage": "https://github.com/protomaps/go-pmtiles",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/pm/pmtiles/package.nix",
-    "version": "1.30.0",
+    "version": "1.30.3",
     "versions": {
-      "master": "1.30.0",
+      "master": "1.30.3",
       "stable": "1.28.2",
       "unstable": "1.30.0"
     }
