@@ -61,7 +61,7 @@
     "versions": {
       "master": "0.3.1",
       "stable": "",
-      "unstable": ""
+      "unstable": "0.3.1"
     }
   },
   "entwine": {
@@ -399,7 +399,7 @@
     "versions": {
       "master": "1.10.1",
       "stable": "0.9.1",
-      "unstable": "1.9.1"
+      "unstable": "1.10.1"
     }
   },
   "mbtileserver": {
@@ -932,7 +932,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.2.0",
-      "unstable": "0.2.0"
+      "unstable": "0.3.0"
     }
   },
   "python313Packages.fiona": {
@@ -1517,7 +1517,7 @@
     "versions": {
       "master": "0.3.0",
       "stable": "0.2.0",
-      "unstable": "0.2.0"
+      "unstable": "0.3.0"
     }
   },
   "python314Packages.fiona": {
@@ -2063,7 +2063,7 @@
     "versions": {
       "master": "9.12.4",
       "stable": "9.10.1",
-      "unstable": "9.12.3"
+      "unstable": "9.12.4"
     }
   },
   "sfcgal": {
