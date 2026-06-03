@@ -135,9 +135,9 @@
     "homepage": "https://geoserver.org/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/ge/geoserver/package.nix",
-    "version": "2.28.3",
+    "version": "2.28.4",
     "versions": {
-      "master": "2.28.3",
+      "master": "2.28.4",
       "stable": "2.27.2",
       "unstable": "2.28.3"
     }
@@ -382,9 +382,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.3",
+    "version": "8.6.4",
     "versions": {
-      "master": "8.6.3",
+      "master": "8.6.4",
       "stable": "8.4.1",
       "unstable": "8.6.3"
     }
