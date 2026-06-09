@@ -2059,9 +2059,9 @@
     "homepage": "https://saga-gis.sourceforge.io",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/sa/saga/package.nix",
-    "version": "9.12.4",
+    "version": "9.12.5",
     "versions": {
-      "master": "9.12.4",
+      "master": "9.12.5",
       "stable": "9.10.1",
       "unstable": "9.12.4"
     }
