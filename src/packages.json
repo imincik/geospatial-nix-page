@@ -2176,9 +2176,9 @@
     "homepage": "https://tile38.com/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ti/tile38/package.nix",
-    "version": "1.37.0",
+    "version": "1.38.0",
     "versions": {
-      "master": "1.37.0",
+      "master": "1.38.0",
       "stable": "1.36.5",
       "unstable": "1.37.0"
     }
