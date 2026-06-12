@@ -2063,7 +2063,7 @@
     "versions": {
       "master": "9.12.5",
       "stable": "9.10.1",
-      "unstable": "9.12.4"
+      "unstable": "9.12.5"
     }
   },
   "sfcgal": {
@@ -2180,7 +2180,7 @@
     "versions": {
       "master": "1.38.0",
       "stable": "1.36.5",
-      "unstable": "1.37.0"
+      "unstable": "1.38.0"
     }
   },
   "tilemaker": {
