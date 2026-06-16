@@ -922,6 +922,19 @@
       "unstable": "2.0.0"
     }
   },
+  "python313Packages.cartopy": {
+    "broken": false,
+    "description": "Process geospatial data to create maps and perform analyses",
+    "homepage": "https://scitools.org.uk/cartopy/docs/latest/",
+    "license": "LGPL-3.0-or-later",
+    "recipe": "pkgs/development/python-modules/cartopy/default.nix",
+    "version": "0.25.0.post2",
+    "versions": {
+      "master": "0.25.0.post2",
+      "stable": "0.25.0",
+      "unstable": "0.25.0"
+    }
+  },
   "python313Packages.color-operations": {
     "broken": false,
     "description": "Apply basic color-oriented image operations. Fork of rio-color",
@@ -1052,6 +1065,19 @@
       "unstable": "1.1.3"
     }
   },
+  "python313Packages.ifcopenshell": {
+    "broken": false,
+    "description": "Open source IFC library and geometry engine",
+    "homepage": "https://ifcopenshell.org/",
+    "license": "LGPL-3.0",
+    "recipe": "pkgs/development/python-modules/ifcopenshell/default.nix",
+    "version": "0.8.0",
+    "versions": {
+      "master": "0.8.0",
+      "stable": "0.8.0",
+      "unstable": "0.8.0"
+    }
+  },
   "python313Packages.inequality": {
     "broken": false,
     "description": "Spatial inequality analysis",
@@ -1154,6 +1180,19 @@
       "master": "5.3.2",
       "stable": "5.2.0",
       "unstable": "5.3.2"
+    }
+  },
+  "python313Packages.opensfm": {
+    "broken": false,
+    "description": "Open source Structure-from-Motion pipeline from Mapillary",
+    "homepage": "https://opensfm.org/",
+    "license": "BSD-2-Clause",
+    "recipe": "pkgs/development/python-modules/opensfm/default.nix",
+    "version": "0.5.1-unstable-2026-05-04",
+    "versions": {
+      "master": "0.5.1-unstable-2026-05-04",
+      "stable": "unstable-2023-12-09",
+      "unstable": "0.5.1-unstable-2026-05-04"
     }
   },
   "python313Packages.osmnx": {
@@ -1429,6 +1468,19 @@
       "unstable": "4.1.0"
     }
   },
+  "python313Packages.streamlit-folium": {
+    "broken": false,
+    "description": "Streamlit Component for rendering Folium maps",
+    "homepage": "https://github.com/randyzwitch/streamlit-folium",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
+    "version": "0.27.2",
+    "versions": {
+      "master": "0.27.2",
+      "stable": "",
+      "unstable": "0.27.2"
+    }
+  },
   "python313Packages.xyzservices": {
     "broken": false,
     "description": "Source of XYZ tiles providers",
@@ -1505,6 +1557,19 @@
       "master": "2.0.0",
       "stable": "2.0.0",
       "unstable": "2.0.0"
+    }
+  },
+  "python314Packages.cartopy": {
+    "broken": false,
+    "description": "Process geospatial data to create maps and perform analyses",
+    "homepage": "https://scitools.org.uk/cartopy/docs/latest/",
+    "license": "LGPL-3.0-or-later",
+    "recipe": "pkgs/development/python-modules/cartopy/default.nix",
+    "version": "0.25.0.post2",
+    "versions": {
+      "master": "0.25.0.post2",
+      "stable": "0.25.0",
+      "unstable": "0.25.0"
     }
   },
   "python314Packages.color-operations": {
@@ -1637,6 +1702,19 @@
       "unstable": "1.1.3"
     }
   },
+  "python314Packages.ifcopenshell": {
+    "broken": false,
+    "description": "Open source IFC library and geometry engine",
+    "homepage": "https://ifcopenshell.org/",
+    "license": "LGPL-3.0",
+    "recipe": "pkgs/development/python-modules/ifcopenshell/default.nix",
+    "version": "0.8.0",
+    "versions": {
+      "master": "0.8.0",
+      "stable": "0.8.0",
+      "unstable": "0.8.0"
+    }
+  },
   "python314Packages.inequality": {
     "broken": false,
     "description": "Spatial inequality analysis",
@@ -1739,6 +1817,19 @@
       "master": "5.3.2",
       "stable": "5.2.0",
       "unstable": "5.3.2"
+    }
+  },
+  "python314Packages.opensfm": {
+    "broken": false,
+    "description": "Open source Structure-from-Motion pipeline from Mapillary",
+    "homepage": "https://opensfm.org/",
+    "license": "BSD-2-Clause",
+    "recipe": "pkgs/development/python-modules/opensfm/default.nix",
+    "version": "0.5.1-unstable-2026-05-04",
+    "versions": {
+      "master": "0.5.1-unstable-2026-05-04",
+      "stable": "unstable-2023-12-09",
+      "unstable": "0.5.1-unstable-2026-05-04"
     }
   },
   "python314Packages.osmnx": {
@@ -2012,6 +2103,19 @@
       "master": "4.1.0",
       "stable": "",
       "unstable": "4.1.0"
+    }
+  },
+  "python314Packages.streamlit-folium": {
+    "broken": false,
+    "description": "Streamlit Component for rendering Folium maps",
+    "homepage": "https://github.com/randyzwitch/streamlit-folium",
+    "license": "MIT",
+    "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
+    "version": "0.27.2",
+    "versions": {
+      "master": "0.27.2",
+      "stable": "",
+      "unstable": "0.27.2"
     }
   },
   "python314Packages.xyzservices": {
