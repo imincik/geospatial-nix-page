@@ -616,9 +616,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
@@ -655,9 +655,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
@@ -694,9 +694,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
@@ -733,9 +733,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
@@ -772,9 +772,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
@@ -811,9 +811,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "",
       "unstable": ""
     }
@@ -850,9 +850,9 @@
     "homepage": "https://postgis.net/",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/servers/sql/postgresql/ext/postgis.nix",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "versions": {
-      "master": "3.6.3",
+      "master": "3.6.4",
       "stable": "3.6.1",
       "unstable": "3.6.3"
     }
