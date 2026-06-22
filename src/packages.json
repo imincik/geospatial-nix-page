@@ -1084,9 +1084,9 @@
     "homepage": "https://github.com/jazzband/geojson",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geojson/default.nix",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "versions": {
-      "master": "3.2.0",
+      "master": "3.3.0",
       "stable": "3.1.0",
       "unstable": "3.2.0"
     }
@@ -1721,9 +1721,9 @@
     "homepage": "https://github.com/jazzband/geojson",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geojson/default.nix",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "versions": {
-      "master": "3.2.0",
+      "master": "3.3.0",
       "stable": "3.1.0",
       "unstable": "3.2.0"
     }
