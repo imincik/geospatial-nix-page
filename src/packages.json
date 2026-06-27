@@ -373,7 +373,7 @@
     "versions": {
       "master": "6.1.1",
       "stable": "5.1.1",
-      "unstable": "6.0.1"
+      "unstable": "6.1.1"
     }
   },
   "mapserver": {
@@ -620,7 +620,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "postgresql15Packages.pgrouting": {
@@ -659,7 +659,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "postgresql16Packages.pgrouting": {
@@ -698,7 +698,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "postgresql17Packages.pgrouting": {
@@ -737,7 +737,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "postgresql18Packages.pgrouting": {
@@ -776,7 +776,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "postgresql19Packages.pgrouting": {
@@ -789,7 +789,7 @@
     "versions": {
       "master": "4.0.1",
       "stable": "",
-      "unstable": ""
+      "unstable": "4.0.1"
     }
   },
   "postgresql19Packages.pointcloud": {
@@ -802,7 +802,7 @@
     "versions": {
       "master": "1.2.5",
       "stable": "",
-      "unstable": ""
+      "unstable": "1.2.5"
     }
   },
   "postgresql19Packages.postgis": {
@@ -815,7 +815,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "",
-      "unstable": ""
+      "unstable": "3.6.4"
     }
   },
   "postgresqlPackages.pgrouting": {
@@ -854,7 +854,7 @@
     "versions": {
       "master": "3.6.4",
       "stable": "3.6.1",
-      "unstable": "3.6.3"
+      "unstable": "3.6.4"
     }
   },
   "proj": {
@@ -906,7 +906,7 @@
     "versions": {
       "master": "0.5.1",
       "stable": "",
-      "unstable": "0.4.0"
+      "unstable": "0.5.1"
     }
   },
   "python313Packages.async-tiff": {
@@ -919,7 +919,7 @@
     "versions": {
       "master": "0.7.2",
       "stable": "",
-      "unstable": "0.7.1"
+      "unstable": "0.7.2"
     }
   },
   "python313Packages.basemap": {
@@ -1088,7 +1088,7 @@
     "versions": {
       "master": "3.3.0",
       "stable": "3.1.0",
-      "unstable": "3.2.0"
+      "unstable": "3.3.0"
     }
   },
   "python313Packages.geopandas": {
@@ -1270,7 +1270,7 @@
     "versions": {
       "master": "0.36.0",
       "stable": "0.35.0",
-      "unstable": "0.35.0"
+      "unstable": "0.36.0"
     }
   },
   "python313Packages.pentapy": {
@@ -1361,7 +1361,7 @@
     "versions": {
       "master": "2.2.1",
       "stable": "2.1.0",
-      "unstable": "2.1.0"
+      "unstable": "2.2.1"
     }
   },
   "python313Packages.pyproj": {
@@ -1452,7 +1452,7 @@
     "versions": {
       "master": "9.3.0",
       "stable": "7.8.1",
-      "unstable": "9.0.6"
+      "unstable": "9.3.0"
     }
   },
   "python313Packages.rioxarray": {
@@ -1504,7 +1504,7 @@
     "versions": {
       "master": "4.4.0",
       "stable": "",
-      "unstable": "4.1.0"
+      "unstable": "4.4.0"
     }
   },
   "python313Packages.streamlit-folium": {
@@ -1543,7 +1543,7 @@
     "versions": {
       "master": "0.5.1",
       "stable": "",
-      "unstable": "0.4.0"
+      "unstable": "0.5.1"
     }
   },
   "python314Packages.async-tiff": {
@@ -1556,7 +1556,7 @@
     "versions": {
       "master": "0.7.2",
       "stable": "",
-      "unstable": "0.7.1"
+      "unstable": "0.7.2"
     }
   },
   "python314Packages.basemap": {
@@ -1725,7 +1725,7 @@
     "versions": {
       "master": "3.3.0",
       "stable": "3.1.0",
-      "unstable": "3.2.0"
+      "unstable": "3.3.0"
     }
   },
   "python314Packages.geopandas": {
@@ -1907,7 +1907,7 @@
     "versions": {
       "master": "0.36.0",
       "stable": "0.35.0",
-      "unstable": "0.35.0"
+      "unstable": "0.36.0"
     }
   },
   "python314Packages.pentapy": {
@@ -1998,7 +1998,7 @@
     "versions": {
       "master": "2.2.1",
       "stable": "2.1.0",
-      "unstable": "2.1.0"
+      "unstable": "2.2.1"
     }
   },
   "python314Packages.pyproj": {
@@ -2089,7 +2089,7 @@
     "versions": {
       "master": "9.3.0",
       "stable": "7.8.1",
-      "unstable": "9.0.6"
+      "unstable": "9.3.0"
     }
   },
   "python314Packages.rioxarray": {
@@ -2141,7 +2141,7 @@
     "versions": {
       "master": "4.4.0",
       "stable": "",
-      "unstable": "4.1.0"
+      "unstable": "4.4.0"
     }
   },
   "python314Packages.streamlit-folium": {
@@ -2271,7 +2271,7 @@
     "versions": {
       "master": "4.4.0",
       "stable": "3.10.2",
-      "unstable": "4.1.0"
+      "unstable": "4.4.0"
     }
   },
   "sumo": {
@@ -2284,7 +2284,7 @@
     "versions": {
       "master": "1.27.1",
       "stable": "1.24.0",
-      "unstable": "1.27.0"
+      "unstable": "1.27.1"
     }
   },
   "t-rex": {
