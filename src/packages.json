@@ -876,9 +876,9 @@
     "homepage": "https://github.com/mapbox/protozero",
     "license": "BSD-2-Clause, Apache-2.0",
     "recipe": "pkgs/by-name/pr/protozero/package.nix",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "versions": {
-      "master": "1.8.1",
+      "master": "1.8.2",
       "stable": "1.8.1",
       "unstable": "1.8.1"
     }
