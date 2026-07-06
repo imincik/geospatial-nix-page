@@ -486,9 +486,9 @@
     "homepage": "https://osm2pgsql.org",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/os/osm2pgsql/package.nix",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "versions": {
-      "master": "2.3.0",
+      "master": "2.3.1",
       "stable": "2.2.0",
       "unstable": "2.3.0"
     }
