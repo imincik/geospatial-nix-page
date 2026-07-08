@@ -577,9 +577,9 @@
     "homepage": "https://github.com/protomaps/go-pmtiles",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/pm/pmtiles/package.nix",
-    "version": "1.30.3",
+    "version": "1.31.0",
     "versions": {
-      "master": "1.30.3",
+      "master": "1.31.0",
       "stable": "1.28.2",
       "unstable": "1.30.3"
     }
@@ -2202,9 +2202,9 @@
     "homepage": "https://saga-gis.sourceforge.io",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/by-name/sa/saga/package.nix",
-    "version": "9.12.5",
+    "version": "9.12.6",
     "versions": {
-      "master": "9.12.5",
+      "master": "9.12.6",
       "stable": "9.10.1",
       "unstable": "9.12.5"
     }
