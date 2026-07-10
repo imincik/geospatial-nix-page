@@ -87,7 +87,7 @@
     "versions": {
       "master": "3.13.1",
       "stable": "3.11.4",
-      "unstable": "3.12.4"
+      "unstable": "3.13.1"
     }
   },
   "gdalMinimal": {
@@ -100,7 +100,7 @@
     "versions": {
       "master": "3.13.1",
       "stable": "3.11.4",
-      "unstable": "3.12.4"
+      "unstable": "3.13.1"
     }
   },
   "geographiclib": {
@@ -490,7 +490,7 @@
     "versions": {
       "master": "2.3.1",
       "stable": "2.2.0",
-      "unstable": "2.3.0"
+      "unstable": "2.3.1"
     }
   },
   "osmium-tool": {
@@ -581,7 +581,7 @@
     "versions": {
       "master": "1.31.0",
       "stable": "1.28.2",
-      "unstable": "1.30.3"
+      "unstable": "1.31.0"
     }
   },
   "postgresql14Packages.pgrouting": {
@@ -1023,7 +1023,7 @@
     "versions": {
       "master": "3.13.1",
       "stable": "3.11.4",
-      "unstable": "3.12.4"
+      "unstable": "3.13.1"
     }
   },
   "python313Packages.geoarrow-c": {
@@ -1097,9 +1097,9 @@
     "homepage": "https://geopandas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geopandas/default.nix",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "versions": {
-      "master": "1.1.3",
+      "master": "1.1.4",
       "stable": "1.1.1",
       "unstable": "1.1.3"
     }
@@ -1231,7 +1231,7 @@
     "versions": {
       "master": "odm-4-unstable-2026-07-01",
       "stable": "unstable-2023-12-09",
-      "unstable": "0.5.1-unstable-2026-05-04"
+      "unstable": "odm-4-unstable-2026-07-01"
     }
   },
   "python313Packages.osmnx": {
@@ -1344,9 +1344,9 @@
     "homepage": "https://pyogrio.readthedocs.io/",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/pyogrio/default.nix",
-    "version": "0.12.1",
+    "version": "0.13.0",
     "versions": {
-      "master": "0.12.1",
+      "master": "0.13.0",
       "stable": "0.11.1",
       "unstable": "0.12.1"
     }
@@ -1660,7 +1660,7 @@
     "versions": {
       "master": "3.13.1",
       "stable": "3.11.4",
-      "unstable": "3.12.4"
+      "unstable": "3.13.1"
     }
   },
   "python314Packages.geoarrow-c": {
@@ -1734,9 +1734,9 @@
     "homepage": "https://geopandas.org",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/geopandas/default.nix",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "versions": {
-      "master": "1.1.3",
+      "master": "1.1.4",
       "stable": "1.1.1",
       "unstable": "1.1.3"
     }
@@ -1868,7 +1868,7 @@
     "versions": {
       "master": "odm-4-unstable-2026-07-01",
       "stable": "unstable-2023-12-09",
-      "unstable": "0.5.1-unstable-2026-05-04"
+      "unstable": "odm-4-unstable-2026-07-01"
     }
   },
   "python314Packages.osmnx": {
@@ -1981,9 +1981,9 @@
     "homepage": "https://pyogrio.readthedocs.io/",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/pyogrio/default.nix",
-    "version": "0.12.1",
+    "version": "0.13.0",
     "versions": {
-      "master": "0.12.1",
+      "master": "0.13.0",
       "stable": "0.11.1",
       "unstable": "0.12.1"
     }
@@ -2206,7 +2206,7 @@
     "versions": {
       "master": "9.12.6",
       "stable": "9.10.1",
-      "unstable": "9.12.5"
+      "unstable": "9.12.6"
     }
   },
   "sfcgal": {
