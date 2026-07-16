@@ -382,9 +382,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.4",
+    "version": "8.6.5",
     "versions": {
-      "master": "8.6.4",
+      "master": "8.6.5",
       "stable": "8.4.1",
       "unstable": "8.6.4"
     }
@@ -538,9 +538,9 @@
     "homepage": "https://pdal.io",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/pd/pdal/package.nix",
-    "version": "2.9.3",
+    "version": "2.10.2",
     "versions": {
-      "master": "2.9.3",
+      "master": "2.10.2",
       "stable": "2.9.3",
       "unstable": "2.9.3"
     }
@@ -1318,9 +1318,9 @@
     "homepage": "https://github.com/GenericMappingTools/pygmt",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/pygmt/default.nix",
-    "version": "0.18.0",
+    "version": "0.19.0",
     "versions": {
-      "master": "0.18.0",
+      "master": "0.19.0",
       "stable": "0.17.0",
       "unstable": "0.18.0"
     }
@@ -1448,9 +1448,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "9.3.0",
+    "version": "9.4.0",
     "versions": {
-      "master": "9.3.0",
+      "master": "9.4.0",
       "stable": "7.8.1",
       "unstable": "9.3.0"
     }
@@ -1955,9 +1955,9 @@
     "homepage": "https://github.com/GenericMappingTools/pygmt",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/pygmt/default.nix",
-    "version": "0.18.0",
+    "version": "0.19.0",
     "versions": {
-      "master": "0.18.0",
+      "master": "0.19.0",
       "stable": "0.17.0",
       "unstable": "0.18.0"
     }
@@ -2085,9 +2085,9 @@
     "homepage": "https://cogeotiff.github.io/rio-tiler/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/rio-tiler/default.nix",
-    "version": "9.3.0",
+    "version": "9.4.0",
     "versions": {
-      "master": "9.3.0",
+      "master": "9.4.0",
       "stable": "7.8.1",
       "unstable": "9.3.0"
     }
