@@ -395,9 +395,9 @@
     "homepage": "https://martin.maplibre.org/",
     "license": "MIT, Apache-2.0",
     "recipe": "pkgs/by-name/ma/martin/package.nix",
-    "version": "1.10.1",
+    "version": "1.12.0",
     "versions": {
-      "master": "1.10.1",
+      "master": "1.12.0",
       "stable": "0.9.1",
       "unstable": "1.10.1"
     }
@@ -577,9 +577,9 @@
     "homepage": "https://github.com/protomaps/go-pmtiles",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/by-name/pm/pmtiles/package.nix",
-    "version": "1.31.0",
+    "version": "1.31.1",
     "versions": {
-      "master": "1.31.0",
+      "master": "1.31.1",
       "stable": "1.28.2",
       "unstable": "1.31.0"
     }
@@ -1227,9 +1227,9 @@
     "homepage": "https://opensfm.org/",
     "license": "BSD-2-Clause",
     "recipe": "pkgs/development/python-modules/opensfm/default.nix",
-    "version": "odm-4-unstable-2026-07-01",
+    "version": "0.5.1-unstable-2026-07-13",
     "versions": {
-      "master": "odm-4-unstable-2026-07-01",
+      "master": "0.5.1-unstable-2026-07-13",
       "stable": "unstable-2023-12-09",
       "unstable": "odm-4-unstable-2026-07-01"
     }
@@ -1864,9 +1864,9 @@
     "homepage": "https://opensfm.org/",
     "license": "BSD-2-Clause",
     "recipe": "pkgs/development/python-modules/opensfm/default.nix",
-    "version": "odm-4-unstable-2026-07-01",
+    "version": "0.5.1-unstable-2026-07-13",
     "versions": {
-      "master": "odm-4-unstable-2026-07-01",
+      "master": "0.5.1-unstable-2026-07-13",
       "stable": "unstable-2023-12-09",
       "unstable": "odm-4-unstable-2026-07-01"
     }
