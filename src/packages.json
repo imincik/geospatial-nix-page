@@ -1162,9 +1162,9 @@
     "homepage": "https://pysal.org/libpysal/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/libpysal/default.nix",
-    "version": "4.14.1",
+    "version": "4.15.0",
     "versions": {
-      "master": "4.14.1",
+      "master": "4.15.0",
       "stable": "4.13.0",
       "unstable": "4.14.1"
     }
@@ -1799,9 +1799,9 @@
     "homepage": "https://pysal.org/libpysal/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/libpysal/default.nix",
-    "version": "4.14.1",
+    "version": "4.15.0",
     "versions": {
-      "master": "4.14.1",
+      "master": "4.15.0",
       "stable": "4.13.0",
       "unstable": "4.14.1"
     }
