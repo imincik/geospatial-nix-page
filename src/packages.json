@@ -386,7 +386,7 @@
     "versions": {
       "master": "8.6.5",
       "stable": "8.4.1",
-      "unstable": "8.6.4"
+      "unstable": "8.6.5"
     }
   },
   "martin": {
@@ -399,7 +399,7 @@
     "versions": {
       "master": "1.12.0",
       "stable": "0.9.1",
-      "unstable": "1.10.1"
+      "unstable": "1.12.0"
     }
   },
   "mbtileserver": {
@@ -542,7 +542,7 @@
     "versions": {
       "master": "2.10.2",
       "stable": "2.9.3",
-      "unstable": "2.9.3"
+      "unstable": "2.10.2"
     }
   },
   "pg_featureserv": {
@@ -581,7 +581,7 @@
     "versions": {
       "master": "1.31.1",
       "stable": "1.28.2",
-      "unstable": "1.31.0"
+      "unstable": "1.31.1"
     }
   },
   "postgresql14Packages.pgrouting": {
@@ -1231,7 +1231,7 @@
     "versions": {
       "master": "0.5.1-unstable-2026-07-13",
       "stable": "unstable-2023-12-09",
-      "unstable": "odm-4-unstable-2026-07-01"
+      "unstable": "0.5.1-unstable-2026-07-13"
     }
   },
   "python313Packages.osmnx": {
@@ -1322,7 +1322,7 @@
     "versions": {
       "master": "0.19.0",
       "stable": "0.17.0",
-      "unstable": "0.18.0"
+      "unstable": "0.19.0"
     }
   },
   "python313Packages.pykrige": {
@@ -1452,7 +1452,7 @@
     "versions": {
       "master": "9.4.0",
       "stable": "7.8.1",
-      "unstable": "9.3.0"
+      "unstable": "9.4.0"
     }
   },
   "python313Packages.rioxarray": {
@@ -1868,7 +1868,7 @@
     "versions": {
       "master": "0.5.1-unstable-2026-07-13",
       "stable": "unstable-2023-12-09",
-      "unstable": "odm-4-unstable-2026-07-01"
+      "unstable": "0.5.1-unstable-2026-07-13"
     }
   },
   "python314Packages.osmnx": {
@@ -1959,7 +1959,7 @@
     "versions": {
       "master": "0.19.0",
       "stable": "0.17.0",
-      "unstable": "0.18.0"
+      "unstable": "0.19.0"
     }
   },
   "python314Packages.pykrige": {
@@ -2089,7 +2089,7 @@
     "versions": {
       "master": "9.4.0",
       "stable": "7.8.1",
-      "unstable": "9.3.0"
+      "unstable": "9.4.0"
     }
   },
   "python314Packages.rioxarray": {
