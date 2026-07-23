@@ -14,7 +14,7 @@
     config.allowUnfree = true;
   },
 
-  pkgsStable ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-25.11.tar.gz") {
+  pkgsStable ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/release-26.05.tar.gz") {
     config.allowBroken = true;
     config.allowUnfree = true;
   },
