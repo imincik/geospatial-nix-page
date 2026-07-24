@@ -385,7 +385,7 @@
     "version": "8.6.5",
     "versions": {
       "master": "8.6.5",
-      "stable": "8.6.4",
+      "stable": "8.6.5",
       "unstable": "8.6.5"
     }
   },
@@ -1243,7 +1243,7 @@
     "version": "2.1.1",
     "versions": {
       "master": "2.1.1",
-      "stable": "2.1.0",
+      "stable": "2.1.1",
       "unstable": "2.1.0"
     }
   },
@@ -1880,7 +1880,7 @@
     "version": "2.1.1",
     "versions": {
       "master": "2.1.1",
-      "stable": "2.1.0",
+      "stable": "2.1.1",
       "unstable": "2.1.0"
     }
   },
