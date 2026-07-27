@@ -333,7 +333,7 @@
     "version": "4.7.1",
     "versions": {
       "master": "4.7.1",
-      "stable": "4.7.1",
+      "stable": "4.7.2",
       "unstable": "4.7.1"
     }
   },
@@ -360,7 +360,7 @@
     "versions": {
       "master": "4.3.0",
       "stable": "4.2.2",
-      "unstable": "4.2.2"
+      "unstable": "4.3.0"
     }
   },
   "mapproxy": {
@@ -581,7 +581,7 @@
     "versions": {
       "master": "1.31.2",
       "stable": "1.31.1",
-      "unstable": "1.31.1"
+      "unstable": "1.31.2"
     }
   },
   "postgresql14Packages.pgrouting": {
@@ -1513,9 +1513,9 @@
     "homepage": "https://github.com/randyzwitch/streamlit-folium",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
-    "version": "0.27.2",
+    "version": "0.27.3",
     "versions": {
-      "master": "0.27.2",
+      "master": "0.27.3",
       "stable": "0.27.2",
       "unstable": "0.27.2"
     }
@@ -2150,9 +2150,9 @@
     "homepage": "https://github.com/randyzwitch/streamlit-folium",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
-    "version": "0.27.2",
+    "version": "0.27.3",
     "versions": {
-      "master": "0.27.2",
+      "master": "0.27.3",
       "stable": "0.27.2",
       "unstable": "0.27.2"
     }
