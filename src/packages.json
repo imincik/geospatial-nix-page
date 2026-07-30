@@ -1175,10 +1175,10 @@
     "homepage": "https://pysal.org/mapclassify/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/mapclassify/default.nix",
-    "version": "2.10.0",
+    "version": "2.10.0-unstable-2026-07-20",
     "versions": {
-      "master": "2.10.0",
-      "stable": "2.10.0",
+      "master": "2.10.0-unstable-2026-07-20",
+      "stable": "2.10.0-unstable-2026-07-20",
       "unstable": "2.10.0"
     }
   },
@@ -1825,10 +1825,10 @@
     "homepage": "https://pysal.org/mapclassify/",
     "license": "BSD-3-Clause",
     "recipe": "pkgs/development/python-modules/mapclassify/default.nix",
-    "version": "2.10.0",
+    "version": "2.10.0-unstable-2026-07-20",
     "versions": {
-      "master": "2.10.0",
-      "stable": "2.10.0",
+      "master": "2.10.0-unstable-2026-07-20",
+      "stable": "2.10.0-unstable-2026-07-20",
       "unstable": "2.10.0"
     }
   },
