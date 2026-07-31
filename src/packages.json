@@ -1179,7 +1179,7 @@
     "versions": {
       "master": "2.10.0-unstable-2026-07-20",
       "stable": "2.10.0-unstable-2026-07-20",
-      "unstable": "2.10.0"
+      "unstable": "2.10.0-unstable-2026-07-20"
     }
   },
   "python313Packages.momepy": {
@@ -1465,7 +1465,7 @@
     "versions": {
       "master": "9.4.2",
       "stable": "9.0.6",
-      "unstable": "9.4.0"
+      "unstable": "9.4.2"
     }
   },
   "python313Packages.rioxarray": {
@@ -1829,7 +1829,7 @@
     "versions": {
       "master": "2.10.0-unstable-2026-07-20",
       "stable": "2.10.0-unstable-2026-07-20",
-      "unstable": "2.10.0"
+      "unstable": "2.10.0-unstable-2026-07-20"
     }
   },
   "python314Packages.momepy": {
@@ -2115,7 +2115,7 @@
     "versions": {
       "master": "9.4.2",
       "stable": "9.0.6",
-      "unstable": "9.4.0"
+      "unstable": "9.4.2"
     }
   },
   "python314Packages.rioxarray": {
