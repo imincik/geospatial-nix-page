@@ -330,9 +330,9 @@
     "homepage": "https://libtiff.gitlab.io/libtiff",
     "license": "libtiff",
     "recipe": "pkgs/by-name/li/libtiff/package.nix",
-    "version": "4.7.1",
+    "version": "4.7.2",
     "versions": {
-      "master": "4.7.1",
+      "master": "4.7.2",
       "stable": "4.7.2",
       "unstable": "4.7.1"
     }
