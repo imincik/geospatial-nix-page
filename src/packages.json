@@ -2219,7 +2219,7 @@
     "versions": {
       "master": "3.44.12",
       "stable": "3.44.12",
-      "unstable": "3.44.11"
+      "unstable": "3.44.12"
     }
   },
   "saga": {
