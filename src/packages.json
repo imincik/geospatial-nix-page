@@ -1474,9 +1474,9 @@
     "homepage": "https://corteva.github.io/rioxarray/",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/rioxarray/default.nix",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "versions": {
-      "master": "0.22.0",
+      "master": "0.23.0",
       "stable": "0.22.0",
       "unstable": "0.22.0"
     }
@@ -1526,9 +1526,9 @@
     "homepage": "https://github.com/randyzwitch/streamlit-folium",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
-    "version": "0.27.3",
+    "version": "0.27.4",
     "versions": {
-      "master": "0.27.3",
+      "master": "0.27.4",
       "stable": "0.27.2",
       "unstable": "0.27.3"
     }
@@ -2124,9 +2124,9 @@
     "homepage": "https://corteva.github.io/rioxarray/",
     "license": "Apache-2.0",
     "recipe": "pkgs/development/python-modules/rioxarray/default.nix",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "versions": {
-      "master": "0.22.0",
+      "master": "0.23.0",
       "stable": "0.22.0",
       "unstable": "0.22.0"
     }
@@ -2176,9 +2176,9 @@
     "homepage": "https://github.com/randyzwitch/streamlit-folium",
     "license": "MIT",
     "recipe": "pkgs/development/python-modules/streamlit-folium/default.nix",
-    "version": "0.27.3",
+    "version": "0.27.4",
     "versions": {
-      "master": "0.27.3",
+      "master": "0.27.4",
       "stable": "0.27.2",
       "unstable": "0.27.3"
     }
