@@ -1478,7 +1478,7 @@
     "versions": {
       "master": "0.23.0",
       "stable": "0.22.0",
-      "unstable": "0.22.0"
+      "unstable": "0.23.0"
     }
   },
   "python313Packages.rtree": {
@@ -1530,7 +1530,7 @@
     "versions": {
       "master": "0.27.4",
       "stable": "0.27.2",
-      "unstable": "0.27.3"
+      "unstable": "0.27.4"
     }
   },
   "python313Packages.xyzservices": {
@@ -2128,7 +2128,7 @@
     "versions": {
       "master": "0.23.0",
       "stable": "0.22.0",
-      "unstable": "0.22.0"
+      "unstable": "0.23.0"
     }
   },
   "python314Packages.rtree": {
@@ -2180,7 +2180,7 @@
     "versions": {
       "master": "0.27.4",
       "stable": "0.27.2",
-      "unstable": "0.27.3"
+      "unstable": "0.27.4"
     }
   },
   "python314Packages.xyzservices": {
