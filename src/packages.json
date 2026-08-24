@@ -1244,7 +1244,7 @@
     "versions": {
       "master": "0.5.1-unstable-2026-08-17",
       "stable": "0.5.1-unstable-2026-05-04",
-      "unstable": "0.5.1-unstable-2026-07-13"
+      "unstable": "0.5.1-unstable-2026-08-17"
     }
   },
   "python313Packages.osmnx": {
@@ -1894,7 +1894,7 @@
     "versions": {
       "master": "0.5.1-unstable-2026-08-17",
       "stable": "0.5.1-unstable-2026-05-04",
-      "unstable": "0.5.1-unstable-2026-07-13"
+      "unstable": "0.5.1-unstable-2026-08-17"
     }
   },
   "python314Packages.osmnx": {
