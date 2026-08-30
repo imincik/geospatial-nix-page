@@ -2358,9 +2358,9 @@
     "homepage": "https://tilemaker.org/",
     "license": "free",
     "recipe": "pkgs/by-name/ti/tilemaker/package.nix",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "versions": {
-      "master": "3.1.0",
+      "master": "3.2.0",
       "stable": "3.1.0",
       "unstable": "3.1.0"
     }
