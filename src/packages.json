@@ -1465,7 +1465,7 @@
     "versions": {
       "master": "9.4.3",
       "stable": "9.0.6",
-      "unstable": "9.4.2"
+      "unstable": "9.4.3"
     }
   },
   "python313Packages.rioxarray": {
@@ -2115,7 +2115,7 @@
     "versions": {
       "master": "9.4.3",
       "stable": "9.0.6",
-      "unstable": "9.4.2"
+      "unstable": "9.4.3"
     }
   },
   "python314Packages.rioxarray": {
