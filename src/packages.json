@@ -2202,9 +2202,9 @@
     "homepage": "https://www.qgis.org",
     "license": "GPL-2.0-or-later",
     "recipe": "pkgs/applications/gis/qgis/unwrapped.nix",
-    "version": "4.0.3",
+    "version": "4.2.1",
     "versions": {
-      "master": "4.0.3",
+      "master": "4.2.1",
       "stable": "4.0.3",
       "unstable": "4.0.3"
     }
