@@ -2206,7 +2206,7 @@
     "versions": {
       "master": "4.2.1",
       "stable": "4.0.3",
-      "unstable": "4.0.3"
+      "unstable": "4.2.1"
     }
   },
   "qgis-ltr": {
