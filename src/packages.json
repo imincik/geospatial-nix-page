@@ -382,9 +382,9 @@
     "homepage": "https://mapserver.org/",
     "license": "MIT",
     "recipe": "pkgs/by-name/ma/mapserver/package.nix",
-    "version": "8.6.5",
+    "version": "8.6.6",
     "versions": {
-      "master": "8.6.5",
+      "master": "8.6.6",
       "stable": "8.6.5",
       "unstable": "8.6.5"
     }
