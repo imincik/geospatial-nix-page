@@ -386,7 +386,7 @@
     "versions": {
       "master": "8.6.6",
       "stable": "8.6.5",
-      "unstable": "8.6.5"
+      "unstable": "8.6.6"
     }
   },
   "martin": {
